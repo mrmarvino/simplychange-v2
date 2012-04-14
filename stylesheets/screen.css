@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -2911,17 +2911,16 @@ input#s {
 /* line 1, ../sass/custom-sc/_home.scss */
 .home #main {
   width: 100%;
-  background: red;
 }
 
 /* intro panel*/
-/* line 8, ../sass/custom-sc/_home.scss */
+/* line 7, ../sass/custom-sc/_home.scss */
 .intro-panel {
   background: url(../images/intro-panel.png) repeat-x;
   padding: 10px 10px 0 10px;
   overflow: auto;
 }
-/* line 13, ../sass/custom-sc/_home.scss */
+/* line 12, ../sass/custom-sc/_home.scss */
 .intro-panel h1 {
   font-size: 42px;
   color: #006792;
@@ -2929,30 +2928,30 @@ input#s {
   text-shadow: 1px 1px 1px #fff;
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-/* line 21, ../sass/custom-sc/_home.scss */
+/* line 20, ../sass/custom-sc/_home.scss */
 .intro-panel p strong {
   color: #006792;
   font-weight: normal;
 }
-/* line 27, ../sass/custom-sc/_home.scss */
+/* line 26, ../sass/custom-sc/_home.scss */
 .intro-panel em {
   font-size: 18px;
   color: #006792;
   font-style: normal;
 }
 
-/* line 35, ../sass/custom-sc/_home.scss */
+/* line 34, ../sass/custom-sc/_home.scss */
 .intro-headers {
   width: 190px;
   float: left;
   padding: 5px 0 0 10px;
 }
-/* line 40, ../sass/custom-sc/_home.scss */
+/* line 39, ../sass/custom-sc/_home.scss */
 .intro-headers p {
   padding: 5px 0 0 7px;
 }
 
-/* line 48, ../sass/custom-sc/_home.scss */
+/* line 47, ../sass/custom-sc/_home.scss */
 .intro-body {
   float: left;
   margin-left: 20px;
@@ -2962,22 +2961,22 @@ input#s {
   background: url(../images/home-image.png) 355px -25px no-repeat;
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-/* line 57, ../sass/custom-sc/_home.scss */
+/* line 56, ../sass/custom-sc/_home.scss */
 .intro-body p {
   line-height: 22px;
 }
 
-/* line 63, ../sass/custom-sc/_home.scss */
+/* line 62, ../sass/custom-sc/_home.scss */
 .features-panel {
   background: url(../images/intro-panel-bottom.png) repeat-x;
 }
 
-/* line 68, ../sass/custom-sc/_home.scss */
+/* line 67, ../sass/custom-sc/_home.scss */
 .features-content {
   background: #d3eaf3 url(../images/features-panel.png) repeat-x;
   padding: 0 10px 20px 20px;
 }
-/* line 73, ../sass/custom-sc/_home.scss */
+/* line 72, ../sass/custom-sc/_home.scss */
 .features-content h2 {
   font-size: 20px;
   line-height: 30px;
@@ -2986,35 +2985,35 @@ input#s {
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
-/* line 85, ../sass/custom-sc/_home.scss */
+/* line 84, ../sass/custom-sc/_home.scss */
 #content .home-content {
   background: #fff;
   float: left;
   width: 640px;
   margin: 10px 10px 20px 10px;
 }
-/* line 92, ../sass/custom-sc/_home.scss */
+/* line 91, ../sass/custom-sc/_home.scss */
 #content .home-content h2 {
   color: #666;
   font-size: 20px;
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-/* line 98, ../sass/custom-sc/_home.scss */
+/* line 97, ../sass/custom-sc/_home.scss */
 #content .home-content h3 {
   font-size: 16px;
   margin: 0 0 5px 0;
   line-height: 1.2em;
 }
-/* line 104, ../sass/custom-sc/_home.scss */
+/* line 103, ../sass/custom-sc/_home.scss */
 #content .home-content h3 a {
   text-decoration: none;
 }
-/* line 107, ../sass/custom-sc/_home.scss */
+/* line 106, ../sass/custom-sc/_home.scss */
 #content .home-content h3 a:hover {
   text-decoration: underline;
 }
 
-/* line 117, ../sass/custom-sc/_home.scss */
+/* line 116, ../sass/custom-sc/_home.scss */
 .home-content .col-1 {
   float: left;
   width: 280px;
@@ -3022,14 +3021,14 @@ input#s {
   margin-right: 20px;
 }
 
-/* line 124, ../sass/custom-sc/_home.scss */
+/* line 123, ../sass/custom-sc/_home.scss */
 .home-content .col-2 {
   float: left;
   width: 280px;
   padding: 10px;
 }
 
-/* line 130, ../sass/custom-sc/_home.scss */
+/* line 129, ../sass/custom-sc/_home.scss */
 .home #content {
   width: 964px;
   margin-left: auto;
@@ -3046,7 +3045,7 @@ input#s {
 .home #content:after {
   clear: both;
 }
-/* line 134, ../sass/custom-sc/_home.scss */
+/* line 133, ../sass/custom-sc/_home.scss */
 .home #content #content .home-content a.read-more {
   display: inline-block;
   background: #006792;
@@ -3055,20 +3054,20 @@ input#s {
   padding: 0 5px;
   border-radius: 3px;
 }
-/* line 142, ../sass/custom-sc/_home.scss */
+/* line 141, ../sass/custom-sc/_home.scss */
 .home #content #content .home-content a.read-more:hover {
   background: #6DCBD8;
 }
 
 /* Tiny Carousel */
-/* line 152, ../sass/custom-sc/_home.scss */
+/* line 151, ../sass/custom-sc/_home.scss */
 #slider1 {
   height: 100px;
   overflow: hidden;
   padding: 0 0 10px;
 }
 
-/* line 153, ../sass/custom-sc/_home.scss */
+/* line 152, ../sass/custom-sc/_home.scss */
 #slider1 .viewport {
   float: left;
   width: 599px;
@@ -3077,7 +3076,7 @@ input#s {
   position: relative;
 }
 
-/* line 154, ../sass/custom-sc/_home.scss */
+/* line 153, ../sass/custom-sc/_home.scss */
 #slider1 .buttons {
   background: url(../images/arrow-left.png) no-repeat;
   display: block;
@@ -3091,19 +3090,19 @@ input#s {
   position: relative;
 }
 
-/* line 155, ../sass/custom-sc/_home.scss */
+/* line 154, ../sass/custom-sc/_home.scss */
 #slider1 .next {
   background-position: 0 0;
   margin: 30px 0 0 0;
   background: url(../images/arrow-right.png) no-repeat;
 }
 
-/* line 156, ../sass/custom-sc/_home.scss */
+/* line 155, ../sass/custom-sc/_home.scss */
 #slider1 .disable {
   visibility: hidden;
 }
 
-/* line 157, ../sass/custom-sc/_home.scss */
+/* line 156, ../sass/custom-sc/_home.scss */
 #slider1 .overview {
   list-style: none;
   position: absolute;
@@ -3114,7 +3113,7 @@ input#s {
   top: 0;
 }
 
-/* line 159, ../sass/custom-sc/_home.scss */
+/* line 158, ../sass/custom-sc/_home.scss */
 #slider1 .overview li {
   float: left;
   margin: 0 20px 0 0;
@@ -3126,65 +3125,65 @@ input#s {
   /*background: #fff url(../images/scroller-bg-1.png) repeat-x;*/
 }
 
-/* line 161, ../sass/custom-sc/_home.scss */
+/* line 160, ../sass/custom-sc/_home.scss */
 #slider1 .overview li h3 {
   padding: 5px 0 0 8px;
   line-height: 14px;
 }
 
-/* line 166, ../sass/custom-sc/_home.scss */
+/* line 165, ../sass/custom-sc/_home.scss */
 #slider1 .overview li h3 a {
   font-weight: normal;
   text-decoration: none;
 }
 
-/* line 171, ../sass/custom-sc/_home.scss */
+/* line 170, ../sass/custom-sc/_home.scss */
 #slider1 .overview li:hover {
   background: #fff;
   border-color: #006792;
 }
 
-/* line 176, ../sass/custom-sc/_home.scss */
+/* line 175, ../sass/custom-sc/_home.scss */
 #slider1 .overview li p {
   padding: 8px;
   line-height: 14px;
 }
 
-/* line 181, ../sass/custom-sc/_home.scss */
+/* line 180, ../sass/custom-sc/_home.scss */
 #slider1 li div {
   padding-right: 40px;
   min-height: 98px;
 }
 
-/* line 186, ../sass/custom-sc/_home.scss */
+/* line 185, ../sass/custom-sc/_home.scss */
 #facilitation div {
   background: url(../images/scroller-facilitation-bg.png) right top no-repeat;
 }
 
-/* line 190, ../sass/custom-sc/_home.scss */
+/* line 189, ../sass/custom-sc/_home.scss */
 #prog-manage div {
   background: url(../images/scroller-prog-manage-bg.png) 130px top no-repeat;
 }
 
-/* line 194, ../sass/custom-sc/_home.scss */
+/* line 193, ../sass/custom-sc/_home.scss */
 #change-management div {
   background: url(../images/scroller-change-manage-bg.png) 110px top no-repeat;
 }
 
-/* line 198, ../sass/custom-sc/_home.scss */
+/* line 197, ../sass/custom-sc/_home.scss */
 #embedding-change div {
   background: url(../images/scroller-exe-change.png) right top no-repeat;
 }
 
 /*Twitter Feed*/
-/* line 204, ../sass/custom-sc/_home.scss */
+/* line 203, ../sass/custom-sc/_home.scss */
 .feed-container {
   float: left;
   width: 290px;
   margin: -160px 0 0 0;
 }
 
-/* line 210, ../sass/custom-sc/_home.scss */
+/* line 209, ../sass/custom-sc/_home.scss */
 .twitter-feed {
   background: url(../images/twitter-border-top.png) no-repeat;
   padding: 5px 0 0 0;
@@ -3193,7 +3192,7 @@ input#s {
   zoom: 1;
 }
 
-/* line 218, ../sass/custom-sc/_home.scss */
+/* line 217, ../sass/custom-sc/_home.scss */
 #content .twitter-feed h2 {
   color: #fff;
   padding: 5px 0 0 10px;
@@ -3202,62 +3201,62 @@ input#s {
   font-size: 16px;
 }
 
-/* line 227, ../sass/custom-sc/_home.scss */
+/* line 226, ../sass/custom-sc/_home.scss */
 #content #tweet {
   padding: 10px 20px;
   min-height: 200px;
 }
-/* line 231, ../sass/custom-sc/_home.scss */
+/* line 230, ../sass/custom-sc/_home.scss */
 #content #tweet h2 {
   display: none;
 }
-/* line 235, ../sass/custom-sc/_home.scss */
+/* line 234, ../sass/custom-sc/_home.scss */
 #content #tweet h3 {
   display: block;
   float: none;
   text-align: left;
   width: auto;
 }
-/* line 242, ../sass/custom-sc/_home.scss */
+/* line 241, ../sass/custom-sc/_home.scss */
 #content #tweet p {
   padding: 0 35px 0 35px;
 }
-/* line 246, ../sass/custom-sc/_home.scss */
+/* line 245, ../sass/custom-sc/_home.scss */
 #content #tweet ul {
   margin: 0;
   list-style: none;
 }
-/* line 251, ../sass/custom-sc/_home.scss */
+/* line 250, ../sass/custom-sc/_home.scss */
 #content #tweet ul li {
   padding: 0 0 15px 0;
 }
-/* line 255, ../sass/custom-sc/_home.scss */
+/* line 254, ../sass/custom-sc/_home.scss */
 #content #tweet .prefix img {
   margin-left: -38px;
   position: absolute;
 }
-/* line 260, ../sass/custom-sc/_home.scss */
+/* line 259, ../sass/custom-sc/_home.scss */
 #content #tweet .intent-meta a {
   padding-right: 0.4em;
 }
 
-/* line 267, ../sass/custom-sc/_home.scss */
+/* line 266, ../sass/custom-sc/_home.scss */
 .twitter-footer {
   background: white url(../images/twitter-border-bottom.png) left bottom no-repeat;
   height: 20px;
 }
 
-/* line 272, ../sass/custom-sc/_home.scss */
+/* line 271, ../sass/custom-sc/_home.scss */
 .twitter-footer p {
   padding: 0 47px 30px 47px;
 }
 
-/* line 276, ../sass/custom-sc/_home.scss */
+/* line 275, ../sass/custom-sc/_home.scss */
 .feed-container .follow-us {
   list-style: none;
 }
 
-/* line 280, ../sass/custom-sc/_home.scss */
+/* line 279, ../sass/custom-sc/_home.scss */
 #content .feed-container h3 {
   display: block;
   color: #666;
@@ -3267,7 +3266,7 @@ input#s {
   padding-top: 5px;
 }
 
-/* line 289, ../sass/custom-sc/_home.scss */
+/* line 288, ../sass/custom-sc/_home.scss */
 .feed-container .follow-us {
   display: block;
   float: right;
@@ -3275,12 +3274,12 @@ input#s {
   margin: 1px 0 0 0;
 }
 
-/* line 296, ../sass/custom-sc/_home.scss */
+/* line 295, ../sass/custom-sc/_home.scss */
 .feed-container .follow-us li {
   float: right;
 }
 
-/* line 303, ../sass/custom-sc/_home.scss */
+/* line 302, ../sass/custom-sc/_home.scss */
 .feed-container .twitter,
 .feed-container .facebook,
 .feed-container .linkedin,
@@ -3292,28 +3291,28 @@ input#s {
   margin-right: 5px;
 }
 
-/* line 311, ../sass/custom-sc/_home.scss */
+/* line 310, ../sass/custom-sc/_home.scss */
 .feed-container .twitter {
   background: url(../images/icon-twitter.png) no-repeat;
 }
 
-/* line 315, ../sass/custom-sc/_home.scss */
+/* line 314, ../sass/custom-sc/_home.scss */
 .feed-container .facebook {
   background: url(../images/icon-facebook.png) no-repeat;
 }
 
-/* line 319, ../sass/custom-sc/_home.scss */
+/* line 318, ../sass/custom-sc/_home.scss */
 .feed-container .linkedin {
   background: url(../images/icon-linkedin.png) no-repeat;
 }
 
-/* line 323, ../sass/custom-sc/_home.scss */
+/* line 322, ../sass/custom-sc/_home.scss */
 .feed-container .rss {
   background: url(../images/icon-rss.png) no-repeat;
 }
 
 /* Facebook */
-/* line 329, ../sass/custom-sc/_home.scss */
+/* line 328, ../sass/custom-sc/_home.scss */
 #LikeboxPluginPagelet {
   background: blue;
 }
