@@ -224,7 +224,7 @@ div.menu,
 #wrapper,
 #page {
   margin: 0 auto;
-  /*width: 960px;*/
+  min-width: 964px;
 }
 
 /* line 15, ../sass/partials/_structure.scss */

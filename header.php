@@ -49,7 +49,7 @@
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url');?>" />
 		<link rel="stylesheet" type="text/css" media="screen, projection" href="<?php echo get_stylesheet_directory_uri();?>/stylesheets/screen.css"/>
 		<link rel="stylesheet" type="text/css" media="print" href="<?php echo get_stylesheet_directory_uri();?>/stylesheets/print.css"/>
-		<!--[if IE]>
+		<!--[if lte IE 8]>
 		<link rel="stylesheet" media="screen, projection" type="text/css" href="<?php echo get_stylesheet_directory_uri() ; ?>/stylesheets/ie.css"/>
 		<![endif]-->
 		<link rel="pingback" href="<?php bloginfo('pingback_url');?>" />
