@@ -229,11 +229,10 @@ div.menu,
 #wrapper,
 #page {
   margin: 0 auto;
-  /*width: 960px;*/
-  /*@include container-fixed;*/
+  width: 960px;
 }
 
-/* line 16, ../sass/partials/_structure.scss */
+/* line 15, ../sass/partials/_structure.scss */
 #wrapper,
 #page {
   background: #fff;
@@ -243,24 +242,24 @@ div.menu,
 }
 
 /* Structure the footer area */
-/* line 24, ../sass/partials/_structure.scss */
+/* line 23, ../sass/partials/_structure.scss */
 #footer-widget-area {
   overflow: hidden;
 }
 
-/* line 27, ../sass/partials/_structure.scss */
+/* line 26, ../sass/partials/_structure.scss */
 #footer-widget-area .widget-area {
   float: left;
   margin-right: 20px;
   width: 220px;
 }
 
-/* line 32, ../sass/partials/_structure.scss */
+/* line 31, ../sass/partials/_structure.scss */
 #footer-widget-area #fourth {
   margin-right: 0;
 }
 
-/* line 35, ../sass/partials/_structure.scss */
+/* line 34, ../sass/partials/_structure.scss */
 #site-info {
   float: left;
   font-size: 14px;
@@ -268,7 +267,7 @@ div.menu,
   width: 700px;
 }
 
-/* line 41, ../sass/partials/_structure.scss */
+/* line 40, ../sass/partials/_structure.scss */
 #site-generator {
   float: right;
   width: 220px;
