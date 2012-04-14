@@ -91,7 +91,7 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 #container {
   float: left;
   margin: 10px 20px 10px 10px;
-  width: 620px;
+  width: 610px;
   padding: 10px;
 }
 
@@ -1866,7 +1866,7 @@ a.comment-reply-link > span {
 /* line 96, ../sass/partials/_widgets.scss */
 #primary {
   margin: 10px;
-  width: 620px;
+  width: 610px;
 }
 
 /* line 100, ../sass/partials/_widgets.scss */
