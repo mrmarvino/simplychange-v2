@@ -1,0 +1,51 @@
+/* =Layout
+-------------------------------------------------------------- */
+
+/*
+LAYOUT: Two columns
+DESCRIPTION: Two-column fixed layout with one sidebar right of content
+*/
+
+#container {
+  float: left;
+  margin: 10px 20px 10px 10px;
+  width: 620px;
+  padding: 10px;
+}
+#content {
+  margin: 0;
+}
+#primary,
+#secondary {
+  float: left;
+  overflow: hidden;
+  width: 260px;
+  padding: 15px;
+}
+#secondary {
+  clear: right;
+}
+#footer {
+  clear: both;
+  width: 100%;
+}
+
+/*
+LAYOUT: One column, no sidebar
+DESCRIPTION: One centered column with no sidebar
+*/
+
+.one-column #content {
+  margin: 0 auto;
+  width: 640px;
+}
+
+/*
+LAYOUT: Full width, no sidebar
+DESCRIPTION: Full width content with no sidebar; used for attachment pages
+*/
+
+.single-attachment #content {
+  margin: 0 auto;
+  width: 900px;
+}

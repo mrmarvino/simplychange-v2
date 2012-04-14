@@ -1,0 +1,66 @@
+
+.hentry, .no-results {
+    border-bottom: 1px solid #DDDDDD;
+    margin: 0 0 1.625em;
+    padding: 0 0 1.625em;
+    position: relative;
+}
+
+.entry-header .comments-link a {
+    background: url("../images/comment-bubble.png") no-repeat scroll 0 0 #EEEEEE;
+    color: #666666;
+    font-size: 11px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 35px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    top: -0.4em;
+    width: 43px;
+    
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #1982d1;
+      color: #fff;
+      color: rgba(255,255,255,0.8);
+    }
+  
+}
+
+//SINGULART POSTS NAVIGATION{
+ 
+ .singular #content {
+  
+  position: relative;
+  
+  .entry-header{
+    padding-top: 2.5em;
+  }
+  
+  .entry-header .entry-meta {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+   
+  #nav-single{  
+    float: right;
+    position: relative;
+    text-align: right;
+    top: 0;
+    z-index: 1;
+    width: 11em;
+  }
+    
+
+ }
+ 
+
+
+
+

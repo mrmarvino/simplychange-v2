@@ -1,0 +1,11 @@
+/*
+Theme Name:     simplychange-v2
+Description:    Child theme for the Twenty Eleven theme 
+Author:         MPW
+Author URI:     http://example.com/about/
+Template:       twentyeleven
+Version:        0.1.0
+*/
+body{
+	background: red;
+}

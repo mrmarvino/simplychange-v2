@@ -1,0 +1,20 @@
+/* search */
+input#searchsubmit{
+  background: url(../images/search-btn.png) 0 0px no-repeat;
+  text-indent: -2000px;
+  width: 39px;
+  height: 25px;
+  border: none;
+  margin: 2px 0 0 -30px;
+  cursor: pointer;
+}
+
+input#searchsubmit:hover{
+  background: url(../images/search-btn-over.png) 0 0px no-repeat;
+}
+
+input#s{
+  width: 170px;
+  height: 21px;
+  padding: 2px 30px 0px 0;
+}

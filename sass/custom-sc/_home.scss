@@ -1,0 +1,317 @@
+/* intro panel*/
+.intro-panel{
+  background: url(../images/intro-panel.png) repeat-x;
+  padding: 10px 10px 0 10px;
+  overflow: auto;
+  
+  h1{
+    font-size: 42px;
+    color: #006792;
+    line-height: 36px;
+    text-shadow: 1px 1px 1px #fff;
+    font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  }
+  
+  p strong{
+    color: #006792;
+    font-weight: normal;
+    
+  }
+  
+  em{
+    font-size: 18px;
+    color: #006792;
+    font-style: normal;
+  }
+  
+}
+
+.intro-headers{
+  width: 190px;
+  float: left;
+  padding: 5px 0 0 10px;
+  
+  p{
+    padding: 5px 0 0 7px;
+  }
+
+}
+
+
+
+.intro-body{
+  float: left;
+  margin-left: 20px;
+  width: 420px;
+  font-size: 16px;
+  padding: 10px 290px 5px 10px;
+  background:  url(../images/home-image.png) 355px -25px no-repeat;
+  font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  
+  p{
+    line-height: 22px;
+  }
+  
+}
+
+.features-panel{
+  background:  url(../images/intro-panel-bottom.png) repeat-x;
+ 
+}
+
+.features-content{
+  background: #d3eaf3 url(../images/features-panel.png) repeat-x;
+  //@include background-image(radial-gradient(right bottom, circle, #000 100px, #dddddd 250px)); 
+  padding: 0 10px 20px 20px;
+  
+  h2{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 0;
+    text-shadow: 1px 1px 1px #fff;
+    font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  }
+  
+}
+
+
+
+#content .home-content{
+  background: #fff; 
+  float: left; 
+  width: 640px; 
+  margin: 10px 10px 20px 10px;
+
+  
+  h2{
+    color: #666;
+    font-size: 20px;
+    font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  }
+  
+  h3{
+    font-size: 16px;
+    margin: 0 0 5px 0;
+    line-height: 1.2em;
+  }
+  
+  h3 a{
+    text-decoration: none;
+    
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  
+}
+
+
+
+
+.home-content .col-1{
+  float: left;
+  width: 280px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.home-content .col-2{
+  float: left;
+  width: 280px;
+  padding: 10px;
+}
+
+#content .home-content a.read-more{
+  display: inline-block;
+  background: #006792;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+#content .home-content a.read-more:hover{
+  background: #6DCBD8;  
+}
+
+
+/* Tiny Carousel */
+#slider1 { height: 100px; overflow:hidden; padding: 0 0 10px; }
+#slider1 .viewport { float: left; width: 599px; height: 125px; overflow: hidden; position: relative; }
+#slider1 .buttons { background: url(../images/arrow-left.png) no-repeat; display: block; margin: 30px 0 0 0; background-position: 0 0; text-indent: -999em; float: left; width: 10px; height: 37px; overflow: hidden; position: relative;}
+#slider1 .next { background-position: 0 0; margin: 30px 0 0 0; background: url(../images/arrow-right.png) no-repeat;}
+#slider1 .disable { visibility: hidden; }
+#slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 240px; left: 0; top: 0; }
+
+#slider1 .overview li{ float: left; margin: 0 20px 0 0; padding: 1px; height: 96px; border: 3px solid #fff; width: 178px; background: #fff; /*background: #fff url(../images/scroller-bg-1.png) repeat-x;*/}
+
+#slider1 .overview li h3{
+  padding: 5px 0 0 8px;
+  line-height: 14px
+}
+
+#slider1 .overview li h3 a{
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#slider1 .overview li:hover{
+  background: #fff;
+  border-color: #006792;
+}
+
+#slider1 .overview li p{
+  padding: 8px;
+  line-height: 14px;
+}
+
+#slider1 li div{
+  padding-right: 40px;
+  min-height: 98px;
+}
+
+#facilitation div{
+  background: url(../images/scroller-facilitation-bg.png) right top no-repeat;
+}
+
+#prog-manage div{
+  background: url(../images/scroller-prog-manage-bg.png) 130px top no-repeat;
+}
+
+#change-management div{
+  background: url(../images/scroller-change-manage-bg.png) 110px top no-repeat;
+}
+
+#embedding-change div{
+  background: url(../images/scroller-exe-change.png) right top no-repeat;
+}
+
+/*Twitter Feed*/
+
+.feed-container{
+  float: left;
+  width: 290px;
+  margin: -160px 0 0 0; 
+}
+
+.twitter-feed{
+  background: url(../images/twitter-border-top.png) no-repeat; 
+  padding: 5px 0 0 0; 
+  font-size: 12px;
+  line-height: 16px;
+  zoom:1;
+}
+
+#content .twitter-feed h2{
+  color: #fff;
+  padding: 5px 0 0 10px;
+  margin-bottom: 10px;
+  font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-size: 16px;
+
+}
+
+#content #tweet{
+  padding: 10px 20px;
+  min-height: 200px;
+  
+  h2{
+    display: none;
+  }
+  
+  h3{
+    display: block;
+    float: none;
+    text-align: left;
+    width: auto;
+  }
+  
+  p{
+    padding: 0 35px 0 35px
+  }
+  
+  ul{
+    margin: 0;
+    list-style: none;
+  }
+  
+  ul li{
+    padding: 0 0 15px 0;
+  }
+  
+  .prefix img{
+    margin-left: -38px;
+    position: absolute;
+  }
+  
+  .intent-meta a{
+    padding-right: 0.4em;
+  }
+  
+}
+
+
+.twitter-footer{
+  background: #fff url(../images/twitter-border-bottom.png) left bottom no-repeat;
+  height: 20px;
+}
+
+.twitter-footer p{
+  padding: 0 47px 30px 47px;
+}
+
+.feed-container .follow-us{
+  list-style: none;
+}
+
+#content .feed-container h3{
+  display: block;
+  color: #666;
+  text-align: right;
+  width: 160px;
+  float: left;
+  padding-top: 5px;
+}
+
+.feed-container .follow-us{
+  display: block;
+  float: right;
+  width: 130px;
+  margin: 1px 0 0 0;
+}
+
+.feed-container .follow-us li{
+  float: right;
+}
+
+.feed-container .twitter,
+.feed-container .facebook,
+.feed-container .linkedin,
+.feed-container .rss{
+  display: block;
+  width: 25px;
+  height: 25px;
+  text-indent: -2000px;
+  margin-right: 5px;
+}
+
+.feed-container .twitter{
+  background: url(../images/icon-twitter.png) no-repeat;
+}
+
+.feed-container .facebook{
+  background: url(../images/icon-facebook.png) no-repeat;
+}
+
+.feed-container .linkedin{
+  background: url(../images/icon-linkedin.png) no-repeat;
+}
+
+.feed-container .rss{
+  background: url(../images/icon-rss.png) no-repeat;
+}
+
+
+/* Facebook */
+#LikeboxPluginPagelet{
+  background: blue;
+}

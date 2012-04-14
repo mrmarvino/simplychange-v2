@@ -1,0 +1,60 @@
+/* =Footer
+-------------------------------------------------------------- */
+
+footer#colophon {
+  margin-top:  10px;
+  margin-bottom: 0;
+  background: #e9e9e9 url(../images/footer-top.png) no-repeat;
+  height:  100px;
+  margin-top: -4px;
+  overflow: hidden;
+  padding: 38px 0;
+}
+#site-info {
+  font-weight: normal;
+  padding-left: 20px;
+  width: 920px;
+}
+
+#site-info ul{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#site-info ul li{
+  display: inline;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-right: 1px solid #006892;;
+}
+#site-info ul li.first{
+  padding-left: 0;
+}
+#site-info ul li.last{
+  border: none;
+  padding-right: 0;
+}
+#site-info a {
+  color: #006892;
+  text-decoration: none;
+}
+#site-generator {
+  font-style: italic;
+  position: relative;
+}
+#site-generator a {
+  background: url(../images/wordpress.png) center left no-repeat;
+  color: #666;
+  display: inline-block;
+  line-height: 16px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+#site-generator a:hover {
+  text-decoration: underline;
+}
+img#wpstats {
+  display: block;
+  margin: 0 auto 10px;
+}

@@ -1,0 +1,44 @@
+/* =Structure
+-------------------------------------------------------------- */
+
+/* The main theme structure */
+div.menu,
+#colophon,
+#branding,
+#wrapper,
+#page {
+  margin: 0 auto;
+  /*width: 960px;*/
+  /*@include container-fixed;*/
+}
+
+#wrapper,
+#page {
+  background: #fff;
+  margin-top: 20px;
+  padding: 0;
+  border: 1px solid #e4e4e4;
+  }
+
+/* Structure the footer area */
+#footer-widget-area {
+  overflow: hidden;
+}
+#footer-widget-area .widget-area {
+  float: left;
+  margin-right: 20px;
+  width: 220px;
+}
+#footer-widget-area #fourth {
+  margin-right: 0;
+}
+#site-info {
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  width: 700px;
+}
+#site-generator {
+  float: right;
+  width: 220px;
+}
