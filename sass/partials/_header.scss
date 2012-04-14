@@ -1,13 +1,11 @@
 /* =Header
 -------------------------------------------------------------- */
+#branding{
+  background: #fff;
+}
 
 #header {
-  padding: 0; 
-}
-#branding{
-  hgroup{
-    @include container-fixed;
-  }
+  padding: 0;
 }
 #search-bar{
   text-align: right;
@@ -86,15 +84,13 @@
   background: url(../images/header-shadow.png) no-repeat center bottom;
   display: block;
   float: left;
-  margin: 0 auto;
-  width: 960px;
+  width: 100%;
+  
+  .menu{
+    @include container-fixed;
+  }
 }
-#access .menu-header,
-div.menu {
-  font-size: 14px;
-  margin-left: 12px;
-  width: 928px;
-}
+
 #access .menu-header ul,
 div.menu ul {
   list-style: none;

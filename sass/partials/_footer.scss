@@ -9,6 +9,7 @@ footer#colophon {
   margin-top: -4px;
   overflow: hidden;
   padding: 38px 0;
+  @include container-fixed;
 }
 #site-info {
   font-weight: normal;

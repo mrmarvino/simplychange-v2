@@ -23,25 +23,25 @@ get_header(); ?>
 		<div id="container-home">
 			<div class="intro-panel">
 				
-				
-				<?php 
-				$page_data = get_page_by_title('HOME - INTRO PANEL'); // You must pass in a variable to the get_page function. If you pass in a value (e.g. get_page ( 123 ); ), WordPress will generate an error. By default, this will return an object.
-				
-				echo apply_filters('the_content', $page_data->post_content); // echo the content and retain Wordpress filters such as paragraph tags. Origin from: http://wordpress.org/support/topic/get_pagepost-and-no-paragraphs-problem
-				?>
-				
+				<div class="int-wrapper">
+					<?php 
+					$page_data = get_page_by_title('HOME - INTRO PANEL'); // You must pass in a variable to the get_page function. If you pass in a value (e.g. get_page ( 123 ); ), WordPress will generate an error. By default, this will return an object.
+					
+					echo apply_filters('the_content', $page_data->post_content); // echo the content and retain Wordpress filters such as paragraph tags. Origin from: http://wordpress.org/support/topic/get_pagepost-and-no-paragraphs-problem
+					?>
+				</div>
 				
 			</div>
 					
 			<div class="features-panel">
 				<div class="features-content">
-					
+					<div class="int-wrapper">
 					<?php 
 					$page_data = get_page_by_title('HOME - CAROUSEL');; // You must pass in a variable to the get_page function. If you pass in a value (e.g. get_page ( 123 ); ), WordPress will generate an error. By default, this will return an object.
 					
 					echo apply_filters('the_content', $page_data->post_content); // echo the content and retain Wordpress filters such as paragraph tags. Origin from: http://wordpress.org/support/topic/get_pagepost-and-no-paragraphs-problem
 					?>
-					
+					</div>
 				</div>
 			</div>
 			<div id="content" role="main">

@@ -1,3 +1,8 @@
+.home #main{
+  width: 100%;
+}
+
+
 /* intro panel*/
 .intro-panel{
   background: url(../images/intro-panel.png) repeat-x;
@@ -121,17 +126,25 @@
   padding: 10px;
 }
 
-#content .home-content a.read-more{
-  display: inline-block;
-  background: #006792;
-  color: #fff;
-  text-decoration: none;
-  padding: 0 5px;
-  border-radius: 3px;
+.home #content{
+  @include container-fixed;
+  background: #fff;
+
+  #content .home-content a.read-more{
+    display: inline-block;
+    background: #006792;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 5px;
+    border-radius: 3px;
+  }
+  #content .home-content a.read-more:hover{
+    background: #6DCBD8;  
+  }
+
 }
-#content .home-content a.read-more:hover{
-  background: #6DCBD8;  
-}
+
+
 
 
 /* Tiny Carousel */
