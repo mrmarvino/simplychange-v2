@@ -1,5 +1,6 @@
 .home #main{
   width: 100%;
+  background: #f1f1f1;
 }
 
 
@@ -79,14 +80,10 @@
   
 }
 
-
-
 #content .home-content{
-  background: #fff; 
   float: left; 
   width: 640px; 
   margin: 10px 10px 20px 10px;
-
   
   h2{
     color: #666;
@@ -128,7 +125,10 @@
 
 .home #content{
   @include container-fixed;
-  background: #fff;
+   // needs latest Compass, add '@import "compass"' to your scss
+  background-color: #f1f1f1; // Old browsers
+  @include filter-gradient(#f1f1f1, #ffffff, vertical); // IE6-9
+  @include background-image(linear-gradient(top,  #f1f1f1 0%,#ffffff 25%));
 
   #content .home-content a.read-more{
     display: inline-block;
