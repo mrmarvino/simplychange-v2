@@ -729,12 +729,12 @@ div.menu li {
   background-color: #f1f1f1;
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF1F1F1', endColorstr='#FFFFFFFF');
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f1f1f1), color-stop(15%, #ffffff));
-  background-image: -webkit-linear-gradient(top, #f1f1f1 0%, #ffffff 15%);
-  background-image: -moz-linear-gradient(top, #f1f1f1 0%, #ffffff 15%);
-  background-image: -o-linear-gradient(top, #f1f1f1 0%, #ffffff 15%);
-  background-image: -ms-linear-gradient(top, #f1f1f1 0%, #ffffff 15%);
-  background-image: linear-gradient(top, #f1f1f1 0%, #ffffff 15%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 60, color-stop(0%, #f1f1f1), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(top, #f1f1f1 0%, #ffffff 60px);
+  background-image: -moz-linear-gradient(top, #f1f1f1 0%, #ffffff 60px);
+  background-image: -o-linear-gradient(top, #f1f1f1 0%, #ffffff 60px);
+  background-image: -ms-linear-gradient(top, #f1f1f1 0%, #ffffff 60px);
+  background-image: linear-gradient(top, #f1f1f1 0%, #ffffff 60px);
   -webkit-box-shadow: #cccccc 1px -10px 10px;
   -moz-box-shadow: #cccccc 1px -10px 10px;
   box-shadow: #cccccc 1px -10px 10px;
