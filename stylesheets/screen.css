@@ -1891,9 +1891,7 @@ footer#colophon {
   margin-left: auto;
   margin-right: auto;
   *zoom: 1;
-  background-color: #b7b7b7;
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFB7B7B7', endColorstr='#FFF1F1F1');
+  background-color: #f1f1f1;
   background-image: -webkit-gradient(radial, 50% -300px, 0, 50% -300px, 350, color-stop(85.714%, #b7b7b7), color-stop(100%, #f1f1f1));
   background-image: -webkit-radial-gradient(50% -300px, ellipse cover, #b7b7b7 300px, #f1f1f1 350px);
   background-image: -moz-radial-gradient(50% -300px, ellipse cover, #b7b7b7 300px, #f1f1f1 350px);
@@ -3206,9 +3204,10 @@ input#s {
   float: left;
   width: 290px;
   margin: -160px 0 0 0;
+  position: relative;
 }
 
-/* line 209, ../sass/custom-sc/_home.scss */
+/* line 210, ../sass/custom-sc/_home.scss */
 .twitter-feed {
   background: url(../images/twitter-border-top.png) no-repeat;
   padding: 5px 0 0 0;
@@ -3217,7 +3216,7 @@ input#s {
   zoom: 1;
 }
 
-/* line 217, ../sass/custom-sc/_home.scss */
+/* line 218, ../sass/custom-sc/_home.scss */
 #content .twitter-feed h2 {
   color: #fff;
   padding: 5px 0 0 10px;
@@ -3226,62 +3225,62 @@ input#s {
   font-size: 16px;
 }
 
-/* line 226, ../sass/custom-sc/_home.scss */
+/* line 227, ../sass/custom-sc/_home.scss */
 #content #tweet {
   padding: 10px 20px;
   min-height: 200px;
 }
-/* line 230, ../sass/custom-sc/_home.scss */
+/* line 231, ../sass/custom-sc/_home.scss */
 #content #tweet h2 {
   display: none;
 }
-/* line 234, ../sass/custom-sc/_home.scss */
+/* line 235, ../sass/custom-sc/_home.scss */
 #content #tweet h3 {
   display: block;
   float: none;
   text-align: left;
   width: auto;
 }
-/* line 241, ../sass/custom-sc/_home.scss */
+/* line 242, ../sass/custom-sc/_home.scss */
 #content #tweet p {
   padding: 0 35px 0 35px;
 }
-/* line 245, ../sass/custom-sc/_home.scss */
+/* line 246, ../sass/custom-sc/_home.scss */
 #content #tweet ul {
   margin: 0;
   list-style: none;
 }
-/* line 250, ../sass/custom-sc/_home.scss */
+/* line 251, ../sass/custom-sc/_home.scss */
 #content #tweet ul li {
   padding: 0 0 15px 0;
 }
-/* line 254, ../sass/custom-sc/_home.scss */
+/* line 255, ../sass/custom-sc/_home.scss */
 #content #tweet .prefix img {
   margin-left: -38px;
   position: absolute;
 }
-/* line 259, ../sass/custom-sc/_home.scss */
+/* line 260, ../sass/custom-sc/_home.scss */
 #content #tweet .intent-meta a {
   padding-right: 0.4em;
 }
 
-/* line 266, ../sass/custom-sc/_home.scss */
+/* line 267, ../sass/custom-sc/_home.scss */
 .twitter-footer {
   background: white url(../images/twitter-border-bottom.png) left bottom no-repeat;
   height: 20px;
 }
 
-/* line 271, ../sass/custom-sc/_home.scss */
+/* line 272, ../sass/custom-sc/_home.scss */
 .twitter-footer p {
   padding: 0 47px 30px 47px;
 }
 
-/* line 275, ../sass/custom-sc/_home.scss */
+/* line 276, ../sass/custom-sc/_home.scss */
 .feed-container .follow-us {
   list-style: none;
 }
 
-/* line 279, ../sass/custom-sc/_home.scss */
+/* line 280, ../sass/custom-sc/_home.scss */
 #content .feed-container h3 {
   display: block;
   color: #666;
@@ -3291,7 +3290,7 @@ input#s {
   padding-top: 5px;
 }
 
-/* line 288, ../sass/custom-sc/_home.scss */
+/* line 289, ../sass/custom-sc/_home.scss */
 .feed-container .follow-us {
   display: block;
   float: right;
@@ -3299,12 +3298,12 @@ input#s {
   margin: 1px 0 0 0;
 }
 
-/* line 295, ../sass/custom-sc/_home.scss */
+/* line 296, ../sass/custom-sc/_home.scss */
 .feed-container .follow-us li {
   float: right;
 }
 
-/* line 302, ../sass/custom-sc/_home.scss */
+/* line 303, ../sass/custom-sc/_home.scss */
 .feed-container .twitter,
 .feed-container .facebook,
 .feed-container .linkedin,
@@ -3316,28 +3315,28 @@ input#s {
   margin-right: 5px;
 }
 
-/* line 310, ../sass/custom-sc/_home.scss */
+/* line 311, ../sass/custom-sc/_home.scss */
 .feed-container .twitter {
   background: url(../images/icon-twitter.png) no-repeat;
 }
 
-/* line 314, ../sass/custom-sc/_home.scss */
+/* line 315, ../sass/custom-sc/_home.scss */
 .feed-container .facebook {
   background: url(../images/icon-facebook.png) no-repeat;
 }
 
-/* line 318, ../sass/custom-sc/_home.scss */
+/* line 319, ../sass/custom-sc/_home.scss */
 .feed-container .linkedin {
   background: url(../images/icon-linkedin.png) no-repeat;
 }
 
-/* line 322, ../sass/custom-sc/_home.scss */
+/* line 323, ../sass/custom-sc/_home.scss */
 .feed-container .rss {
   background: url(../images/icon-rss.png) no-repeat;
 }
 
 /* Facebook */
-/* line 328, ../sass/custom-sc/_home.scss */
+/* line 329, ../sass/custom-sc/_home.scss */
 #LikeboxPluginPagelet {
   background: blue;
 }

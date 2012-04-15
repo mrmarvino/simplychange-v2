@@ -12,10 +12,10 @@ footer#colophon {
   @include container-fixed;
   
   
-  // needs latest Compass, add '@import "compass"' to your scss
-background-color: #b7b7b7; // Old browsers
-@include filter-gradient(#b7b7b7, #f1f1f1, horizontal); // IE6-9 fallback on horizontal gradient
-@include background-image(radial-gradient(50% -300px, ellipse cover,  #b7b7b7 300px,#f1f1f1 350px));
+    // needs latest Compass, add '@import "compass"' to your scss
+  background-color: #f1f1f1; // Old browsers
+  //@include filter-gradient(#b7b7b7, #f1f1f1, horizontal); // IE6-9 fallback on horizontal gradient
+  @include background-image(radial-gradient(50% -300px, ellipse cover,  #b7b7b7 300px,#f1f1f1 350px));
 
 }
 #site-info {
