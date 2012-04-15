@@ -128,7 +128,8 @@
    // needs latest Compass, add '@import "compass"' to your scss
   background-color: #f1f1f1; // Old browsers
   @include filter-gradient(#f1f1f1, #ffffff, vertical); // IE6-9
-  @include background-image(linear-gradient(top,  #f1f1f1 0%,#ffffff 25%));
+  @include background-image(linear-gradient(top,  #f1f1f1 0%,#ffffff 15%));
+  @include box-shadow(#ccc 1px 3px 10px);
 
   #content .home-content a.read-more{
     display: inline-block;
