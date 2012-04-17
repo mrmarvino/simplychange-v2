@@ -3,7 +3,6 @@
   background: #f1f1f1;
 }
 
-
 /* intro panel*/
 .intro-panel{
   background: url(../images/intro-panel.png) repeat-x;
@@ -42,8 +41,6 @@
   }
 
 }
-
-
 
 .intro-body{
   float: left;
@@ -145,42 +142,89 @@
 
 }
 
-
-
-
 /* Tiny Carousel */
-#slider1 { height: 100px; overflow:hidden; padding: 0 0 10px; }
-#slider1 .viewport { float: left; width: 599px; height: 125px; overflow: hidden; position: relative; }
-#slider1 .buttons { background: url(../images/arrow-left.png) no-repeat; display: block; margin: 30px 0 0 0; background-position: 0 0; text-indent: -999em; float: left; width: 10px; height: 37px; overflow: hidden; position: relative;}
-#slider1 .next { background-position: 0 0; margin: 30px 0 0 0; background: url(../images/arrow-right.png) no-repeat;}
-#slider1 .disable { visibility: hidden; }
-#slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 240px; left: 0; top: 0; }
-
-#slider1 .overview li{ float: left; margin: 0 20px 0 0; padding: 1px; height: 96px; border: 3px solid #fff; width: 178px; background: #fff; /*background: #fff url(../images/scroller-bg-1.png) repeat-x;*/}
-
-#slider1 .overview li h3{
-  padding: 5px 0 0 8px;
-  line-height: 14px
-}
-
-#slider1 .overview li h3 a{
-  font-weight: normal;
-  text-decoration: none;
-}
-
-#slider1 .overview li:hover{
-  background: #fff;
-  border-color: #006792;
-}
-
-#slider1 .overview li p{
-  padding: 8px;
-  line-height: 14px;
-}
-
-#slider1 li div{
-  padding-right: 40px;
-  min-height: 98px;
+#slider1 { 
+  height: 100px; 
+  overflow:hidden; 
+  padding: 0 0 10px;
+  
+  .viewport {
+    float: left; 
+    width: 599px; 
+    height: 125px; 
+    overflow: hidden; 
+    position: relative;
+  }
+  
+  .buttons {
+    background: url(../images/arrow-left.png) no-repeat; 
+    display: block; 
+    margin: 30px 0 0 0; 
+    background-position: 0 0; 
+    text-indent: -999em; 
+    float: left; 
+    width: 10px; 
+    height: 37px; 
+    overflow: hidden; 
+    position: relative;
+  }
+  
+  .next { 
+    background-position: 0 0; 
+    margin: 30px 0 0 0; 
+    background: url(../images/arrow-right.png) no-repeat;
+  }
+  
+  disable { 
+    visibility: hidden; 
+  }
+  
+  .overview { 
+    list-style: none; 
+    position: absolute; 
+    padding: 0; 
+    margin: 0; 
+    width: 240px; 
+    left: 0; 
+    top: 0;
+    
+    li{
+      float: left; 
+      margin: 0 20px 0 0; 
+      padding: 1px; 
+      height: 96px; 
+      border: 3px solid #fff; 
+      width: 178px; 
+      background: #fff;
+      
+      &:hover{
+        background: #fff;
+        border-color: $blueDark;
+      }
+    
+      h3{
+        padding: 5px 0 0 8px;
+        line-height: 14px
+        a{
+          font-weight: normal;
+          text-decoration: none; 
+        }
+      }
+      
+      p{
+        padding: 8px;
+        line-height: 14px; 
+      }
+      
+      div{
+        padding-right: 40px;
+        min-height: 98px;
+      }
+      
+    }
+  
+  }
+  
 }
 
 #facilitation div{
@@ -208,21 +252,21 @@
   position: relative; 
 }
 
-.twitter-feed{
+#content .twitter-feed{
   background: url(../images/twitter-border-top.png) no-repeat; 
   padding: 5px 0 0 0; 
   font-size: 12px;
   line-height: 16px;
   zoom:1;
-}
-
-#content .twitter-feed h2{
-  color: #fff;
-  padding: 5px 0 0 10px;
-  margin-bottom: 10px;
-  font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-size: 16px;
-
+  
+  h2{
+    color: #fff;
+    padding: 5px 0 0 10px;
+    margin-bottom: 10px;
+    font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    font-size: 16px;
+  }
+  
 }
 
 #content #tweet{
@@ -268,63 +312,68 @@
 .twitter-footer{
   background: #fff url(../images/twitter-border-bottom.png) left bottom no-repeat;
   height: 20px;
+  
+  p{
+    padding: 0 47px 30px 47px;
+  }
+
 }
 
-.twitter-footer p{
-  padding: 0 47px 30px 47px;
-}
+#content .feed-container{
+  
+  .follow-us{
+    list-style: none;
+  }
+  
+  h3{
+    display: block;
+    color: #666;
+    text-align: right;
+    width: 160px;
+    float: left;
+    padding-top: 5px;
+  }
+  
+  .follow-us{
+    display: block;
+    float: right;
+    width: 130px;
+    margin: 1px 0 0 0;
+  
+    li{
+      float: right;
+    }
+      
+  }
+  
+  .twitter,
+  .facebook,
+  .linkedin,
+  .rss{
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-indent: -2000px;
+    margin-right: 5px;
+  }
+  
+  .twitter{
+    background: url(../images/icon-twitter.png) no-repeat;
+  }
 
-.feed-container .follow-us{
-  list-style: none;
-}
+  .facebook{
+    background: url(../images/icon-facebook.png) no-repeat;
+  }
 
-#content .feed-container h3{
-  display: block;
-  color: #666;
-  text-align: right;
-  width: 160px;
-  float: left;
-  padding-top: 5px;
-}
+  .linkedin{
+    background: url(../images/icon-linkedin.png) no-repeat;
+  }
 
-.feed-container .follow-us{
-  display: block;
-  float: right;
-  width: 130px;
-  margin: 1px 0 0 0;
+  .rss{
+    background: url(../images/icon-rss.png) no-repeat;
+  }
+  
 }
-
-.feed-container .follow-us li{
-  float: right;
-}
-
-.feed-container .twitter,
-.feed-container .facebook,
-.feed-container .linkedin,
-.feed-container .rss{
-  display: block;
-  width: 25px;
-  height: 25px;
-  text-indent: -2000px;
-  margin-right: 5px;
-}
-
-.feed-container .twitter{
-  background: url(../images/icon-twitter.png) no-repeat;
-}
-
-.feed-container .facebook{
-  background: url(../images/icon-facebook.png) no-repeat;
-}
-
-.feed-container .linkedin{
-  background: url(../images/icon-linkedin.png) no-repeat;
-}
-
-.feed-container .rss{
-  background: url(../images/icon-rss.png) no-repeat;
-}
-
 
 /* Facebook */
 #LikeboxPluginPagelet{
