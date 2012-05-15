@@ -3165,35 +3165,36 @@ input#s {
 #slider1 .overview li a {
   font-weight: normal;
   text-decoration: none;
+  font-size: 14.5px;
 }
-/* line 221, ../sass/custom-sc/_home.scss */
+/* line 222, ../sass/custom-sc/_home.scss */
 #slider1 .overview li div {
   padding-right: 40px;
   min-height: 98px;
 }
 
-/* line 232, ../sass/custom-sc/_home.scss */
+/* line 233, ../sass/custom-sc/_home.scss */
 #facilitation div {
   background: url(../images/scroller-facilitation-bg.png) right top no-repeat;
 }
 
-/* line 236, ../sass/custom-sc/_home.scss */
+/* line 237, ../sass/custom-sc/_home.scss */
 #prog-manage div {
   background: url(../images/scroller-prog-manage-bg.png) 130px top no-repeat;
 }
 
-/* line 240, ../sass/custom-sc/_home.scss */
+/* line 241, ../sass/custom-sc/_home.scss */
 #change-management div {
   background: url(../images/scroller-change-manage-bg.png) 110px top no-repeat;
 }
 
-/* line 244, ../sass/custom-sc/_home.scss */
+/* line 245, ../sass/custom-sc/_home.scss */
 #embedding-change div {
   background: url(../images/scroller-exe-change.png) right top no-repeat;
 }
 
 /*Twitter Feed*/
-/* line 250, ../sass/custom-sc/_home.scss */
+/* line 251, ../sass/custom-sc/_home.scss */
 .feed-container {
   float: left;
   width: 290px;
@@ -3201,7 +3202,7 @@ input#s {
   position: relative;
 }
 
-/* line 257, ../sass/custom-sc/_home.scss */
+/* line 258, ../sass/custom-sc/_home.scss */
 #content .twitter-feed {
   background: url(../images/twitter-border-top.png) no-repeat;
   padding: 5px 0 0 0;
@@ -3209,7 +3210,7 @@ input#s {
   line-height: 16px;
   zoom: 1;
 }
-/* line 264, ../sass/custom-sc/_home.scss */
+/* line 265, ../sass/custom-sc/_home.scss */
 #content .twitter-feed h2 {
   color: #fff;
   padding: 5px 0 0 10px;
@@ -3218,60 +3219,60 @@ input#s {
   font-size: 16px;
 }
 
-/* line 274, ../sass/custom-sc/_home.scss */
+/* line 275, ../sass/custom-sc/_home.scss */
 #content #tweet {
   padding: 10px 20px;
   min-height: 200px;
 }
-/* line 278, ../sass/custom-sc/_home.scss */
+/* line 279, ../sass/custom-sc/_home.scss */
 #content #tweet h2 {
   display: none;
 }
-/* line 282, ../sass/custom-sc/_home.scss */
+/* line 283, ../sass/custom-sc/_home.scss */
 #content #tweet h3 {
   display: block;
   float: none;
   text-align: left;
   width: auto;
 }
-/* line 289, ../sass/custom-sc/_home.scss */
+/* line 290, ../sass/custom-sc/_home.scss */
 #content #tweet p {
   padding: 0 35px 0 35px;
 }
-/* line 293, ../sass/custom-sc/_home.scss */
+/* line 294, ../sass/custom-sc/_home.scss */
 #content #tweet ul {
   margin: 0;
   list-style: none;
 }
-/* line 298, ../sass/custom-sc/_home.scss */
+/* line 299, ../sass/custom-sc/_home.scss */
 #content #tweet ul li {
   padding: 0 0 15px 0;
 }
-/* line 302, ../sass/custom-sc/_home.scss */
+/* line 303, ../sass/custom-sc/_home.scss */
 #content #tweet .prefix img {
   margin-left: -38px;
   position: absolute;
 }
-/* line 307, ../sass/custom-sc/_home.scss */
+/* line 308, ../sass/custom-sc/_home.scss */
 #content #tweet .intent-meta a {
   padding-right: 0.4em;
 }
 
-/* line 314, ../sass/custom-sc/_home.scss */
+/* line 315, ../sass/custom-sc/_home.scss */
 .twitter-footer {
   background: white url(../images/twitter-border-bottom.png) left bottom no-repeat;
   height: 20px;
 }
-/* line 318, ../sass/custom-sc/_home.scss */
+/* line 319, ../sass/custom-sc/_home.scss */
 .twitter-footer p {
   padding: 0 47px 30px 47px;
 }
 
-/* line 326, ../sass/custom-sc/_home.scss */
+/* line 327, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us {
   list-style: none;
 }
-/* line 330, ../sass/custom-sc/_home.scss */
+/* line 331, ../sass/custom-sc/_home.scss */
 #content .feed-container h3 {
   display: block;
   color: #666;
@@ -3280,18 +3281,18 @@ input#s {
   float: left;
   padding-top: 5px;
 }
-/* line 339, ../sass/custom-sc/_home.scss */
+/* line 340, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us {
   display: block;
   float: right;
   width: 130px;
   margin: 1px 0 0 0;
 }
-/* line 345, ../sass/custom-sc/_home.scss */
+/* line 346, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us li {
   float: right;
 }
-/* line 354, ../sass/custom-sc/_home.scss */
+/* line 355, ../sass/custom-sc/_home.scss */
 #content .feed-container .twitter,
 #content .feed-container .facebook,
 #content .feed-container .linkedin,
@@ -3302,25 +3303,25 @@ input#s {
   text-indent: -2000px;
   margin-right: 5px;
 }
-/* line 362, ../sass/custom-sc/_home.scss */
+/* line 363, ../sass/custom-sc/_home.scss */
 #content .feed-container .twitter {
   background: url(../images/icon-twitter.png) no-repeat;
 }
-/* line 366, ../sass/custom-sc/_home.scss */
+/* line 367, ../sass/custom-sc/_home.scss */
 #content .feed-container .facebook {
   background: url(../images/icon-facebook.png) no-repeat;
 }
-/* line 370, ../sass/custom-sc/_home.scss */
+/* line 371, ../sass/custom-sc/_home.scss */
 #content .feed-container .linkedin {
   background: url(../images/icon-linkedin.png) no-repeat;
 }
-/* line 374, ../sass/custom-sc/_home.scss */
+/* line 375, ../sass/custom-sc/_home.scss */
 #content .feed-container .rss {
   background: url(../images/icon-rss.png) no-repeat;
 }
 
 /* Facebook */
-/* line 381, ../sass/custom-sc/_home.scss */
+/* line 382, ../sass/custom-sc/_home.scss */
 #LikeboxPluginPagelet {
   background: blue;
 }
