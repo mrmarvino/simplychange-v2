@@ -5,7 +5,7 @@
  * A custom page template without sidebar.
  *
  * The "Template Name:" bit above allows this to be selectable
- * from a dropdown menu on the edit page screen.
+ * from a dropdown menu on the edit page screen. MPW
  *
  * @package WordPress
  * @subpackage Twenty_Ten
