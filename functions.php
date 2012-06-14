@@ -7,7 +7,7 @@ function childtheme_remove_filters(){
 add_action( 'after_setup_theme', 'childtheme_remove_filters' );
 
 function simplychange_continue_reading_link() {
-	return ' <a href="'. esc_url( get_permalink() ) . '">' . __( '<p class="read-more">Read more <i class="icon-chevron-right"></i></p>', 'twentyeleven' ) . '</a>';
+	return ' <p class="read-more"><a href="'. esc_url( get_permalink() ) . '">' . __( 'Read more <i class="icon-chevron-right"></i>', 'twentyeleven' ) . '</a></p>';
 }
 
 /**
