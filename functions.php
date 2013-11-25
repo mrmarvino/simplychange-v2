@@ -21,13 +21,32 @@ function simplychange_auto_excerpt_more( $more ) {
 }
 add_filter( 'excerpt_more', 'simplychange_auto_excerpt_more' );
 
-
 register_sidebar( array(
 		'name' => __( 'Header Widgets Area', 'Business' ),
 		'id' => 'header-area',
 		'description' => __( 'The header widget area', 'Business' ),
 		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</li>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+
+register_sidebar( array(
+		'name' => __( 'Sidebar Events', 'twentyeleven' ),
+		'id' => 'sidebar-events',
+		'description' => __( 'Sidebar Events', 'Business' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget' => "</aside>",
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+
+register_sidebar( array(
+		'name' => __( 'Main Sidebar 3', 'twentyeleven' ),
+		'id' => 'sidebar-v3',
+		'description' => __( 'Sidebar 3', 'Business' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget' => "</aside>",
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
@@ -39,7 +58,13 @@ register_sidebar( array(
 		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</div>',
 	) );
-	
 
+register_sidebar( array(
+		'name' => __( 'Home Twitter Area 2', 'Business' ),
+		'id' => 'twitter-area-2',
+		'description' => __( 'The home twitter area', 'Business' ),
+		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</div>',
+	) );
 
 ?>

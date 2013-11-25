@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,50 +19,50 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-body {
+/* line 22, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
   line-height: 1;
 }
 
-/* line 22, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -415,7 +415,7 @@ pre {
 /* line 91, ../sass/partials/_global.scss */
 abbr,
 acronym {
-  border-bottom: 1px dotted #666;
+  border-bottom: 1px dotted #666666;
   cursor: help;
 }
 
@@ -442,7 +442,7 @@ sub {
 input[type="text"],
 textarea {
   background: #f9f9f9;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   /*box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
   -moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
   -webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
@@ -543,8 +543,8 @@ a:hover {
 /* This is the custom header image */
 /* line 54, ../sass/partials/_header.scss */
 #branding img {
-  border-top: 4px solid #000;
-  border-bottom: 1px solid #000;
+  border-top: 4px solid black;
+  border-bottom: 1px solid black;
   display: block;
   float: left;
 }
@@ -564,7 +564,7 @@ a:hover {
 #access a.assistive-text:active,
 #access a.assistive-text:focus {
   background: #eee;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dddddd;
   color: #009ddf;
   clip: auto !important;
   font-size: 12px;
@@ -733,7 +733,6 @@ div.menu li {
   background-image: -webkit-linear-gradient(top, #f1f1f1 0%, #ffffff 60px);
   background-image: -moz-linear-gradient(top, #f1f1f1 0%, #ffffff 60px);
   background-image: -o-linear-gradient(top, #f1f1f1 0%, #ffffff 60px);
-  background-image: -ms-linear-gradient(top, #f1f1f1 0%, #ffffff 60px);
   background-image: linear-gradient(top, #f1f1f1 0%, #ffffff 60px);
   -webkit-box-shadow: #cccccc 1px -10px 10px;
   -moz-box-shadow: #cccccc 1px -10px 10px;
@@ -850,7 +849,7 @@ div.menu li {
 /* line 90, ../sass/partials/_content.scss */
 .home .sticky {
   background: #f2f7fc;
-  border-top: 4px solid #000;
+  border-top: 4px solid black;
   margin-left: -20px;
   margin-right: -20px;
   padding: 18px 20px;
@@ -928,7 +927,7 @@ div.menu li {
 /* line 147, ../sass/partials/_content.scss */
 .entry-meta abbr:hover,
 .entry-utility abbr:hover {
-  border-bottom: 1px dotted #666;
+  border-bottom: 1px dotted #666666;
 }
 
 /* line 151, ../sass/partials/_content.scss */
@@ -1043,7 +1042,7 @@ body.page .edit-link {
 /* line 227, ../sass/partials/_content.scss */
 #entry-author-info {
   background: #f2f7fc;
-  border-top: 4px solid #000;
+  border-top: 4px solid black;
   clear: both;
   font-size: 14px;
   line-height: 20px;
@@ -1412,7 +1411,7 @@ img.aligncenter {
 /* line 29, ../sass/partials/_comments.scss */
 .commentlist > li.comment {
   background: #f6f6f6;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   -moz-border-radius: 3px;
   border-radius: 3px;
   margin: 0 0 1.625em;
@@ -1435,7 +1434,7 @@ img.aligncenter {
 /* line 46, ../sass/partials/_comments.scss */
 .commentlist .children li.comment {
   background: #fff;
-  border-left: 1px solid #ddd;
+  border-left: 1px solid #dddddd;
   -moz-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
   margin: 1.625em 0 0;
@@ -1480,9 +1479,9 @@ img.aligncenter {
 .commentlist .avatar {
   -moz-border-radius: 3px;
   border-radius: 3px;
-  -webkit-box-shadow: 0 1px 2px #ccc;
-  -moz-box-shadow: 0 1px 2px #ccc;
-  box-shadow: 0 1px 2px #ccc;
+  -webkit-box-shadow: 0 1px 2px #cccccc;
+  -moz-box-shadow: 0 1px 2px #cccccc;
+  box-shadow: 0 1px 2px #cccccc;
   left: -102px;
   padding: 0;
   position: absolute;
@@ -1579,7 +1578,7 @@ a.comment-reply-link > span {
 #respond input[type="text"],
 #respond textarea {
   background: #fff;
-  border: 4px solid #eee;
+  border: 4px solid #eeeeee;
   -moz-border-radius: 5px;
   border-radius: 5px;
   -webkit-box-shadow: inset 0 1px 3px rgba(204, 204, 204, 0.95);
@@ -1821,7 +1820,7 @@ a.comment-reply-link > span {
 /* line 63, ../sass/partials/_widgets.scss */
 #wp-calendar tbody td {
   background: #f5f5f5;
-  border: 1px solid #fff;
+  border: 1px solid white;
   padding: 3px 0 2px;
   text-align: center;
 }
@@ -1895,11 +1894,10 @@ footer#colophon {
   margin-right: auto;
   *zoom: 1;
   background-color: #f1f1f1;
-  background-image: -webkit-gradient(radial, 50% -300px, 0, 50% -300px, 350, color-stop(85.714%, #b7b7b7), color-stop(100%, #f1f1f1));
+  background-image: -webkit-gradient(radial, 50% -300px, 0, 50% -300px, 350, color-stop(85.71429%, #b7b7b7), color-stop(100%, #f1f1f1));
   background-image: -webkit-radial-gradient(50% -300px, ellipse cover, #b7b7b7 300px, #f1f1f1 350px);
   background-image: -moz-radial-gradient(50% -300px, ellipse cover, #b7b7b7 300px, #f1f1f1 350px);
   background-image: -o-radial-gradient(50% -300px, ellipse cover, #b7b7b7 300px, #f1f1f1 350px);
-  background-image: -ms-radial-gradient(50% -300px, ellipse cover, #b7b7b7 300px, #f1f1f1 350px);
   background-image: radial-gradient(50% -300px, ellipse cover, #b7b7b7 300px, #f1f1f1 350px);
 }
 /* line 15, ../sass/mixins/_mixins.scss */
@@ -1990,7 +1988,7 @@ img#wpstats {
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   text-decoration: none;
   vertical-align: middle;
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
   background-image: -moz-linear-gradient(top, white, #e6e6e6);
   background-image: -ms-linear-gradient(top, white, #e6e6e6);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#e6e6e6));
@@ -2002,7 +2000,7 @@ img#wpstats {
   border-color: #e6e6e6 #e6e6e6 #bfbfbf;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) fadein(rgba(0, 0, 0, 0.1), 15%);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-bottom-color: #bbb;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -2042,7 +2040,7 @@ img#wpstats {
 
 /* line 46, ../sass/partials/_buttons.scss */
 .btn:focus {
-  outline: thin dotted #333;
+  outline: thin dotted #333333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -2304,7 +2302,7 @@ button.btn.small, input[type="submit"].btn.small {
 
 /* line 33, ../sass/partials/_sprites.scss */
 .icon-glass {
-  background-position: 0      0;
+  background-position: 0 0;
 }
 
 /* line 34, ../sass/partials/_sprites.scss */
@@ -2944,7 +2942,7 @@ input#s {
   font-size: 42px;
   color: #006792;
   line-height: 36px;
-  text-shadow: 1px 1px 1px #fff;
+  text-shadow: 1px 1px 1px white;
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 /* line 20, ../sass/custom-sc/_home.scss */
@@ -2958,80 +2956,84 @@ input#s {
   color: #006792;
   font-style: normal;
 }
+/* line 32, ../sass/custom-sc/_home.scss */
+.intro-panel li {
+  padding-bottom: 1em;
+}
 
-/* line 34, ../sass/custom-sc/_home.scss */
+/* line 38, ../sass/custom-sc/_home.scss */
 .intro-headers {
   width: 190px;
   float: left;
   padding: 5px 0 0 10px;
 }
-/* line 39, ../sass/custom-sc/_home.scss */
+/* line 43, ../sass/custom-sc/_home.scss */
 .intro-headers p {
   padding: 5px 0 0 7px;
 }
 
-/* line 45, ../sass/custom-sc/_home.scss */
+/* line 49, ../sass/custom-sc/_home.scss */
 .intro-body {
   float: left;
   margin-left: 20px;
   width: 420px;
   font-size: 16px;
   padding: 10px 290px 5px 10px;
-  background: url(../images/home-image.png) 355px -25px no-repeat;
+  background: url(http://placehold.it/250x400) right no-repeat;
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-/* line 54, ../sass/custom-sc/_home.scss */
+/* line 58, ../sass/custom-sc/_home.scss */
 .intro-body p {
   line-height: 22px;
 }
 
-/* line 60, ../sass/custom-sc/_home.scss */
+/* line 64, ../sass/custom-sc/_home.scss */
 .features-panel {
   background: url(../images/intro-panel-bottom.png) repeat-x;
 }
 
-/* line 65, ../sass/custom-sc/_home.scss */
+/* line 69, ../sass/custom-sc/_home.scss */
 .features-content {
   background: #d3eaf3 url(../images/features-panel.png) repeat-x;
   padding: 0 10px 20px 20px;
 }
-/* line 70, ../sass/custom-sc/_home.scss */
+/* line 74, ../sass/custom-sc/_home.scss */
 .features-content h2 {
   font-size: 20px;
   line-height: 30px;
   padding: 10px 0;
-  text-shadow: 1px 1px 1px #fff;
+  text-shadow: 1px 1px 1px white;
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
-/* line 80, ../sass/custom-sc/_home.scss */
+/* line 84, ../sass/custom-sc/_home.scss */
 #content .home-content {
   float: left;
   width: 640px;
   margin: 10px 10px 20px 10px;
 }
-/* line 85, ../sass/custom-sc/_home.scss */
+/* line 89, ../sass/custom-sc/_home.scss */
 #content .home-content h2 {
   color: #666;
   font-size: 20px;
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-/* line 91, ../sass/custom-sc/_home.scss */
+/* line 95, ../sass/custom-sc/_home.scss */
 #content .home-content h3 {
   font-size: 16px;
   margin: 0 0 5px 0;
   line-height: 1.2em;
 }
-/* line 97, ../sass/custom-sc/_home.scss */
+/* line 101, ../sass/custom-sc/_home.scss */
 #content .home-content h3 a {
   text-decoration: none;
 }
-/* line 100, ../sass/custom-sc/_home.scss */
+/* line 104, ../sass/custom-sc/_home.scss */
 #content .home-content h3 a:hover {
   text-decoration: underline;
 }
 
-/* line 110, ../sass/custom-sc/_home.scss */
+/* line 114, ../sass/custom-sc/_home.scss */
 .home-content .col-1 {
   float: left;
   width: 280px;
@@ -3039,14 +3041,14 @@ input#s {
   margin-right: 20px;
 }
 
-/* line 117, ../sass/custom-sc/_home.scss */
+/* line 121, ../sass/custom-sc/_home.scss */
 .home-content .col-2 {
   float: left;
   width: 280px;
   padding: 10px;
 }
 
-/* line 123, ../sass/custom-sc/_home.scss */
+/* line 127, ../sass/custom-sc/_home.scss */
 .home #content {
   width: 964px;
   margin-left: auto;
@@ -3059,7 +3061,6 @@ input#s {
   background-image: -webkit-linear-gradient(top, #f1f1f1 0%, #ffffff 15%);
   background-image: -moz-linear-gradient(top, #f1f1f1 0%, #ffffff 15%);
   background-image: -o-linear-gradient(top, #f1f1f1 0%, #ffffff 15%);
-  background-image: -ms-linear-gradient(top, #f1f1f1 0%, #ffffff 15%);
   background-image: linear-gradient(top, #f1f1f1 0%, #ffffff 15%);
   -webkit-box-shadow: #cccccc 1px 3px 10px;
   -moz-box-shadow: #cccccc 1px 3px 10px;
@@ -3074,7 +3075,7 @@ input#s {
 .home #content:after {
   clear: both;
 }
-/* line 131, ../sass/custom-sc/_home.scss */
+/* line 135, ../sass/custom-sc/_home.scss */
 .home #content #content .home-content a.read-more {
   display: inline-block;
   background: #006792;
@@ -3083,19 +3084,19 @@ input#s {
   padding: 0 5px;
   border-radius: 3px;
 }
-/* line 139, ../sass/custom-sc/_home.scss */
+/* line 143, ../sass/custom-sc/_home.scss */
 .home #content #content .home-content a.read-more:hover {
   background: #6DCBD8;
 }
 
 /* Tiny Carousel */
-/* line 146, ../sass/custom-sc/_home.scss */
+/* line 150, ../sass/custom-sc/_home.scss */
 #slider1 {
   height: 100px;
   overflow: hidden;
   padding: 0 0 10px;
 }
-/* line 151, ../sass/custom-sc/_home.scss */
+/* line 155, ../sass/custom-sc/_home.scss */
 #slider1 .viewport {
   float: left;
   width: 599px;
@@ -3103,7 +3104,7 @@ input#s {
   overflow: hidden;
   position: relative;
 }
-/* line 159, ../sass/custom-sc/_home.scss */
+/* line 163, ../sass/custom-sc/_home.scss */
 #slider1 .buttons {
   background: url(../images/arrow-left.png) no-repeat;
   display: block;
@@ -3116,17 +3117,17 @@ input#s {
   overflow: hidden;
   position: relative;
 }
-/* line 172, ../sass/custom-sc/_home.scss */
+/* line 176, ../sass/custom-sc/_home.scss */
 #slider1 .next {
   background-position: 0 0;
   margin: 30px 0 0 0;
   background: url(../images/arrow-right.png) no-repeat;
 }
-/* line 178, ../sass/custom-sc/_home.scss */
+/* line 182, ../sass/custom-sc/_home.scss */
 #slider1 disable {
   visibility: hidden;
 }
-/* line 182, ../sass/custom-sc/_home.scss */
+/* line 186, ../sass/custom-sc/_home.scss */
 #slider1 .overview {
   list-style: none;
   position: absolute;
@@ -3136,65 +3137,65 @@ input#s {
   left: 0;
   top: 0;
 }
-/* line 191, ../sass/custom-sc/_home.scss */
+/* line 195, ../sass/custom-sc/_home.scss */
 #slider1 .overview li {
   float: left;
   margin: 0 20px 0 0;
   padding: 1px;
   height: 96px;
-  border: 3px solid #fff;
+  border: 3px solid white;
   width: 178px;
   background: #fff;
 }
-/* line 200, ../sass/custom-sc/_home.scss */
+/* line 204, ../sass/custom-sc/_home.scss */
 #slider1 .overview li:hover {
   background: #fff;
   border-color: #006792;
 }
-/* line 205, ../sass/custom-sc/_home.scss */
+/* line 209, ../sass/custom-sc/_home.scss */
 #slider1 .overview li h3 {
   padding: 5px 0 0 8px;
   line-height: 14px;
 }
-/* line 211, ../sass/custom-sc/_home.scss */
+/* line 215, ../sass/custom-sc/_home.scss */
 #slider1 .overview li p {
   padding: 8px;
   line-height: 14px;
 }
-/* line 216, ../sass/custom-sc/_home.scss */
+/* line 220, ../sass/custom-sc/_home.scss */
 #slider1 .overview li a {
   font-weight: normal;
   text-decoration: none;
   font-size: 14.5px;
 }
-/* line 222, ../sass/custom-sc/_home.scss */
+/* line 226, ../sass/custom-sc/_home.scss */
 #slider1 .overview li div {
   padding-right: 40px;
   min-height: 98px;
 }
 
-/* line 233, ../sass/custom-sc/_home.scss */
+/* line 237, ../sass/custom-sc/_home.scss */
 #facilitation div {
   background: url(../images/scroller-facilitation-bg.png) right top no-repeat;
 }
 
-/* line 237, ../sass/custom-sc/_home.scss */
+/* line 241, ../sass/custom-sc/_home.scss */
 #prog-manage div {
   background: url(../images/scroller-prog-manage-bg.png) 130px top no-repeat;
 }
 
-/* line 241, ../sass/custom-sc/_home.scss */
+/* line 245, ../sass/custom-sc/_home.scss */
 #change-management div {
   background: url(../images/scroller-change-manage-bg.png) 110px top no-repeat;
 }
 
-/* line 245, ../sass/custom-sc/_home.scss */
+/* line 249, ../sass/custom-sc/_home.scss */
 #embedding-change div {
   background: url(../images/scroller-exe-change.png) right top no-repeat;
 }
 
 /*Twitter Feed*/
-/* line 251, ../sass/custom-sc/_home.scss */
+/* line 255, ../sass/custom-sc/_home.scss */
 .feed-container {
   float: left;
   width: 290px;
@@ -3202,7 +3203,7 @@ input#s {
   position: relative;
 }
 
-/* line 258, ../sass/custom-sc/_home.scss */
+/* line 262, ../sass/custom-sc/_home.scss */
 #content .twitter-feed {
   background: url(../images/twitter-border-top.png) no-repeat;
   padding: 5px 0 0 0;
@@ -3210,7 +3211,7 @@ input#s {
   line-height: 16px;
   zoom: 1;
 }
-/* line 265, ../sass/custom-sc/_home.scss */
+/* line 269, ../sass/custom-sc/_home.scss */
 #content .twitter-feed h2 {
   color: #fff;
   padding: 5px 0 0 10px;
@@ -3219,60 +3220,60 @@ input#s {
   font-size: 16px;
 }
 
-/* line 275, ../sass/custom-sc/_home.scss */
+/* line 279, ../sass/custom-sc/_home.scss */
 #content #tweet {
   padding: 10px 20px;
   min-height: 200px;
 }
-/* line 279, ../sass/custom-sc/_home.scss */
+/* line 283, ../sass/custom-sc/_home.scss */
 #content #tweet h2 {
   display: none;
 }
-/* line 283, ../sass/custom-sc/_home.scss */
+/* line 287, ../sass/custom-sc/_home.scss */
 #content #tweet h3 {
   display: block;
   float: none;
   text-align: left;
   width: auto;
 }
-/* line 290, ../sass/custom-sc/_home.scss */
+/* line 294, ../sass/custom-sc/_home.scss */
 #content #tweet p {
   padding: 0 35px 0 35px;
 }
-/* line 294, ../sass/custom-sc/_home.scss */
+/* line 298, ../sass/custom-sc/_home.scss */
 #content #tweet ul {
   margin: 0;
   list-style: none;
 }
-/* line 299, ../sass/custom-sc/_home.scss */
+/* line 303, ../sass/custom-sc/_home.scss */
 #content #tweet ul li {
   padding: 0 0 15px 0;
 }
-/* line 303, ../sass/custom-sc/_home.scss */
+/* line 307, ../sass/custom-sc/_home.scss */
 #content #tweet .prefix img {
   margin-left: -38px;
   position: absolute;
 }
-/* line 308, ../sass/custom-sc/_home.scss */
+/* line 312, ../sass/custom-sc/_home.scss */
 #content #tweet .intent-meta a {
   padding-right: 0.4em;
 }
 
-/* line 315, ../sass/custom-sc/_home.scss */
+/* line 319, ../sass/custom-sc/_home.scss */
 .twitter-footer {
   background: white url(../images/twitter-border-bottom.png) left bottom no-repeat;
   height: 20px;
 }
-/* line 319, ../sass/custom-sc/_home.scss */
+/* line 323, ../sass/custom-sc/_home.scss */
 .twitter-footer p {
   padding: 0 47px 30px 47px;
 }
 
-/* line 327, ../sass/custom-sc/_home.scss */
+/* line 331, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us {
   list-style: none;
 }
-/* line 331, ../sass/custom-sc/_home.scss */
+/* line 335, ../sass/custom-sc/_home.scss */
 #content .feed-container h3 {
   display: block;
   color: #666;
@@ -3281,18 +3282,18 @@ input#s {
   float: left;
   padding-top: 5px;
 }
-/* line 340, ../sass/custom-sc/_home.scss */
+/* line 344, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us {
   display: block;
   float: right;
   width: 130px;
   margin: 1px 0 0 0;
 }
-/* line 346, ../sass/custom-sc/_home.scss */
+/* line 350, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us li {
   float: right;
 }
-/* line 355, ../sass/custom-sc/_home.scss */
+/* line 359, ../sass/custom-sc/_home.scss */
 #content .feed-container .twitter,
 #content .feed-container .facebook,
 #content .feed-container .linkedin,
@@ -3303,32 +3304,32 @@ input#s {
   text-indent: -2000px;
   margin-right: 5px;
 }
-/* line 363, ../sass/custom-sc/_home.scss */
+/* line 367, ../sass/custom-sc/_home.scss */
 #content .feed-container .twitter {
   background: url(../images/icon-twitter.png) no-repeat;
 }
-/* line 367, ../sass/custom-sc/_home.scss */
+/* line 371, ../sass/custom-sc/_home.scss */
 #content .feed-container .facebook {
   background: url(../images/icon-facebook.png) no-repeat;
 }
-/* line 371, ../sass/custom-sc/_home.scss */
+/* line 375, ../sass/custom-sc/_home.scss */
 #content .feed-container .linkedin {
   background: url(../images/icon-linkedin.png) no-repeat;
 }
-/* line 375, ../sass/custom-sc/_home.scss */
+/* line 379, ../sass/custom-sc/_home.scss */
 #content .feed-container .rss {
   background: url(../images/icon-rss.png) no-repeat;
 }
 
 /* Facebook */
-/* line 382, ../sass/custom-sc/_home.scss */
+/* line 386, ../sass/custom-sc/_home.scss */
 #LikeboxPluginPagelet {
   background: blue;
 }
 
 /* line 2, ../sass/custom-sc/_structure.scss */
 .hentry, .no-results {
-  border-bottom: 1px solid #DDDDDD;
+  border-bottom: 1px solid #dddddd;
   margin: 0 0 1.625em;
   padding: 0 0 1.625em;
   position: relative;

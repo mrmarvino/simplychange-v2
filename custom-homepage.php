@@ -19,7 +19,6 @@ get_header(); ?>
 		jQuery('#slider1').tinycarousel({display: 1, interval: true, intervaltime: 9000});	
 	});
 </script>
-
 		<div id="container-home">
 			<div class="intro-panel">
 				

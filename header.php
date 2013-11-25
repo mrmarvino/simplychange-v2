@@ -46,7 +46,6 @@
 			?></title>
 		<link rel="profile" href="http://gmpg.org/xfn/11" />
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url');?>" />
-		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url');?>" />
 		<link rel="stylesheet" type="text/css" media="screen, projection" href="<?php echo get_stylesheet_directory_uri();?>/stylesheets/screen.css"/>
 		<link rel="stylesheet" type="text/css" media="print" href="<?php echo get_stylesheet_directory_uri();?>/stylesheets/print.css"/>
 		<!--[if lte IE 8]>
