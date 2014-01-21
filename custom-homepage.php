@@ -22,7 +22,7 @@ get_header(); ?>
 		        faders = jQuery('.fader li');
 		    
 		    function nextFade() {
-		        jQuery(faders[faderIndex]).fadeOut(5000, function() {
+		        jQuery(faders[faderIndex]).delay(2000).fadeOut(1000, function() {
 		            faderIndex++;
 		            if (faderIndex >= faders.length)
 		                faderIndex = 0;
@@ -30,7 +30,11 @@ get_header(); ?>
 		        });
 		    }
 
+		    jQuery(faders[0]).show();
+
 		    nextFade();
+
+
 
 	});
 </script>
