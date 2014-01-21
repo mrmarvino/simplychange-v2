@@ -28,9 +28,22 @@
     color: #006792;
     font-style: normal;
   }
+  
+  .fader{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
 
-  li{
-    padding-bottom: 1em;
+    li{
+      padding-bottom: 1em;
+      display: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: $blue;
+      line-height: 1.4em;
+
+    }
   }
   
 }

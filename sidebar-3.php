@@ -14,6 +14,8 @@ if ( 'content' != $current_layout ) :
 ?>
 		<div id="secondary" class="widget-area" role="complementary">
 
+			SIDEBAR3
+
 			<?php if ( ! dynamic_sidebar( 'sidebar-v3' ) ) : ?>
 
 				<aside id="archives" class="widget">

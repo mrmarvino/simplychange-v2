@@ -16,10 +16,26 @@ get_header(); ?>
 
 <script type="text/javascript">
 	jQuery(document).ready(function(){
-		jQuery('#slider1').tinycarousel({display: 1, interval: true, intervaltime: 9000});	
+		jQuery('#slider1').tinycarousel({display: 1, interval: true, intervaltime: 9000});
+
+		    var faderIndex = 0,
+		        faders = jQuery('.fader li');
+		    
+		    function nextFade() {
+		        jQuery(faders[faderIndex]).fadeOut(5000, function() {
+		            faderIndex++;
+		            if (faderIndex >= faders.length)
+		                faderIndex = 0;
+		            jQuery(faders[faderIndex]).fadeIn(1000, nextFade);
+		        });
+		    }
+
+		    nextFade();
+
 	});
 </script>
 		<div id="container-home">
+			TEST
 			<div class="intro-panel">
 				
 				<div class="int-wrapper">
