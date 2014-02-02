@@ -39,7 +39,6 @@ get_header(); ?>
 	});
 </script>
 		<div id="container-home">
-			TEST
 			<div class="intro-panel">
 				
 				<div class="int-wrapper">

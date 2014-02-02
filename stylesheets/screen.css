@@ -3192,27 +3192,32 @@ input#s {
 }
 
 /* line 255, ../sass/custom-sc/_home.scss */
+p.slider-controls {
+  margin: 0;
+}
+
+/* line 259, ../sass/custom-sc/_home.scss */
 #facilitation div {
   background: url(../images/scroller-facilitation-bg.png) right top no-repeat;
 }
 
-/* line 259, ../sass/custom-sc/_home.scss */
+/* line 263, ../sass/custom-sc/_home.scss */
 #prog-manage div {
   background: url(../images/scroller-prog-manage-bg.png) 130px top no-repeat;
 }
 
-/* line 263, ../sass/custom-sc/_home.scss */
+/* line 267, ../sass/custom-sc/_home.scss */
 #change-management div {
   background: url(../images/scroller-change-manage-bg.png) 110px top no-repeat;
 }
 
-/* line 267, ../sass/custom-sc/_home.scss */
+/* line 271, ../sass/custom-sc/_home.scss */
 #embedding-change div {
   background: url(../images/scroller-exe-change.png) right top no-repeat;
 }
 
 /*Twitter Feed*/
-/* line 273, ../sass/custom-sc/_home.scss */
+/* line 277, ../sass/custom-sc/_home.scss */
 .feed-container {
   float: left;
   width: 290px;
@@ -3220,7 +3225,7 @@ input#s {
   position: relative;
 }
 
-/* line 280, ../sass/custom-sc/_home.scss */
+/* line 284, ../sass/custom-sc/_home.scss */
 #content .twitter-feed {
   background: url(../images/twitter-border-top.png) no-repeat;
   padding: 5px 0 0 0;
@@ -3228,7 +3233,7 @@ input#s {
   line-height: 16px;
   zoom: 1;
 }
-/* line 287, ../sass/custom-sc/_home.scss */
+/* line 291, ../sass/custom-sc/_home.scss */
 #content .twitter-feed h2 {
   color: #fff;
   padding: 5px 0 0 10px;
@@ -3237,60 +3242,60 @@ input#s {
   font-size: 16px;
 }
 
-/* line 297, ../sass/custom-sc/_home.scss */
+/* line 301, ../sass/custom-sc/_home.scss */
 #content #tweet {
   padding: 10px 20px;
   min-height: 200px;
 }
-/* line 301, ../sass/custom-sc/_home.scss */
+/* line 305, ../sass/custom-sc/_home.scss */
 #content #tweet h2 {
   display: none;
 }
-/* line 305, ../sass/custom-sc/_home.scss */
+/* line 309, ../sass/custom-sc/_home.scss */
 #content #tweet h3 {
   display: block;
   float: none;
   text-align: left;
   width: auto;
 }
-/* line 312, ../sass/custom-sc/_home.scss */
+/* line 316, ../sass/custom-sc/_home.scss */
 #content #tweet p {
   padding: 0 35px 0 35px;
 }
-/* line 316, ../sass/custom-sc/_home.scss */
+/* line 320, ../sass/custom-sc/_home.scss */
 #content #tweet ul {
   margin: 0;
   list-style: none;
 }
-/* line 321, ../sass/custom-sc/_home.scss */
+/* line 325, ../sass/custom-sc/_home.scss */
 #content #tweet ul li {
   padding: 0 0 15px 0;
 }
-/* line 325, ../sass/custom-sc/_home.scss */
+/* line 329, ../sass/custom-sc/_home.scss */
 #content #tweet .prefix img {
   margin-left: -38px;
   position: absolute;
 }
-/* line 330, ../sass/custom-sc/_home.scss */
+/* line 334, ../sass/custom-sc/_home.scss */
 #content #tweet .intent-meta a {
   padding-right: 0.4em;
 }
 
-/* line 337, ../sass/custom-sc/_home.scss */
+/* line 341, ../sass/custom-sc/_home.scss */
 .twitter-footer {
   background: white url(../images/twitter-border-bottom.png) left bottom no-repeat;
   height: 20px;
 }
-/* line 341, ../sass/custom-sc/_home.scss */
+/* line 345, ../sass/custom-sc/_home.scss */
 .twitter-footer p {
   padding: 0 47px 30px 47px;
 }
 
-/* line 349, ../sass/custom-sc/_home.scss */
+/* line 353, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us {
   list-style: none;
 }
-/* line 353, ../sass/custom-sc/_home.scss */
+/* line 357, ../sass/custom-sc/_home.scss */
 #content .feed-container h3 {
   display: block;
   color: #666;
@@ -3299,18 +3304,18 @@ input#s {
   float: left;
   padding-top: 5px;
 }
-/* line 362, ../sass/custom-sc/_home.scss */
+/* line 366, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us {
   display: block;
   float: right;
   width: 130px;
   margin: 1px 0 0 0;
 }
-/* line 368, ../sass/custom-sc/_home.scss */
+/* line 372, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us li {
   float: right;
 }
-/* line 377, ../sass/custom-sc/_home.scss */
+/* line 381, ../sass/custom-sc/_home.scss */
 #content .feed-container .twitter,
 #content .feed-container .facebook,
 #content .feed-container .linkedin,
@@ -3321,25 +3326,25 @@ input#s {
   text-indent: -2000px;
   margin-right: 5px;
 }
-/* line 385, ../sass/custom-sc/_home.scss */
+/* line 389, ../sass/custom-sc/_home.scss */
 #content .feed-container .twitter {
   background: url(../images/icon-twitter.png) no-repeat;
 }
-/* line 389, ../sass/custom-sc/_home.scss */
+/* line 393, ../sass/custom-sc/_home.scss */
 #content .feed-container .facebook {
   background: url(../images/icon-facebook.png) no-repeat;
 }
-/* line 393, ../sass/custom-sc/_home.scss */
+/* line 397, ../sass/custom-sc/_home.scss */
 #content .feed-container .linkedin {
   background: url(../images/icon-linkedin.png) no-repeat;
 }
-/* line 397, ../sass/custom-sc/_home.scss */
+/* line 401, ../sass/custom-sc/_home.scss */
 #content .feed-container .rss {
   background: url(../images/icon-rss.png) no-repeat;
 }
 
 /* Facebook */
-/* line 404, ../sass/custom-sc/_home.scss */
+/* line 408, ../sass/custom-sc/_home.scss */
 #LikeboxPluginPagelet {
   background: blue;
 }

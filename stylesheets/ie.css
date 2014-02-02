@@ -5,7 +5,8 @@
  * <![endif]--> */
 /* FACEBOOK LIKE BOX*/
 /* line 8, ../sass/ie.scss */
-
 iframe {
+  border: 1px solid red;
+  background: blue;
   width: 100px;
 }
