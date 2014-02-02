@@ -30,10 +30,10 @@
   }
   
   .fader{
-    
     margin: 0;
     padding: 0;
     list-style: none;
+    min-height: 55px;
 
     li{
       padding-bottom: 1em;
@@ -65,7 +65,7 @@
   width: 420px;
   font-size: 16px;
   padding: 10px 290px 5px 10px;
-  background:  url(http://placehold.it/250x400) right no-repeat;
+  background:  url(http://placehold.it/250x200) right 10px no-repeat;
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   
   p{
@@ -164,97 +164,6 @@
 
 }
 
-/* Tiny Carousel */
-#slider1 { 
-  height: 100px; 
-  overflow:hidden; 
-  padding: 0 0 10px;
-  
-  .viewport {
-    float: left; 
-    width: 599px; 
-    height: 125px; 
-    overflow: hidden; 
-    position: relative;
-  }
-  
-  .buttons {
-    background: url(../images/arrow-left.png) no-repeat; 
-    display: block; 
-    margin: 30px 0 0 0; 
-    background-position: 0 0; 
-    text-indent: -999em; 
-    float: left; 
-    width: 10px; 
-    height: 37px; 
-    overflow: hidden; 
-    position: relative;
-  }
-  
-  .next { 
-    background-position: 0 0; 
-    margin: 30px 0 0 0; 
-    background: url(../images/arrow-right.png) no-repeat;
-  }
-  
-  disable { 
-    visibility: hidden; 
-  }
-  
-  .overview { 
-    list-style: none; 
-    position: absolute; 
-    padding: 0; 
-    margin: 0; 
-    width: 240px; 
-    left: 0; 
-    top: 0;
-    
-    li{
-      float: left; 
-      margin: 0 20px 0 0; 
-      padding: 1px; 
-      height: 96px; 
-      border: 3px solid #fff; 
-      width: 178px; 
-      background: #fff;
-      
-      &:hover{
-        background: #fff;
-        border-color: $blueDark;
-      }
-    
-      h3{
-        padding: 5px 0 0 8px;
-        line-height: 14px
-        
-      }
-      
-      p{
-        padding: 8px;
-        line-height: 14px; 
-      }
-      
-      a{
-        font-weight: normal;
-        text-decoration: none;
-        font-size: $baseFontSize + 1.5;
-      }
-      
-      div{
-        padding-right: 40px;
-        min-height: 98px;
-      }
-      
-    }
-  
-  }
-  
-}
-
-p.slider-controls{
-  margin: 0;
-}
 
 #facilitation div{
   background: url(../images/scroller-facilitation-bg.png) right top no-repeat;

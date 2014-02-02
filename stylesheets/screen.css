@@ -2900,6 +2900,148 @@ button.btn.small, input[type="submit"].btn.small {
   background-position: -456px -118px;
 }
 
+/* Tiny Carousel */
+/* line 2, ../sass/partials/_tiny-carousel.scss */
+.tiny-carousel {
+  height: 100px;
+  overflow: hidden;
+  padding: 0 0 10px;
+}
+/* line 7, ../sass/partials/_tiny-carousel.scss */
+.tiny-carousel .viewport {
+  float: left;
+  width: 599px;
+  height: 125px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 15, ../sass/partials/_tiny-carousel.scss */
+.tiny-carousel .buttons {
+  background: url(../images/arrow-left.png) no-repeat;
+  display: block;
+  margin: 30px 0 0 0;
+  background-position: 0 0;
+  text-indent: -999em;
+  float: left;
+  width: 10px;
+  height: 37px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 28, ../sass/partials/_tiny-carousel.scss */
+.tiny-carousel .next {
+  background-position: 0 0;
+  margin: 30px 0 0 0;
+  background: url(../images/arrow-right.png) no-repeat;
+}
+/* line 34, ../sass/partials/_tiny-carousel.scss */
+.tiny-carousel disable {
+  visibility: hidden;
+}
+/* line 38, ../sass/partials/_tiny-carousel.scss */
+.tiny-carousel .overview {
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 240px;
+  left: 0;
+  top: 0;
+}
+/* line 47, ../sass/partials/_tiny-carousel.scss */
+.tiny-carousel .overview li {
+  float: left;
+  margin: 0 20px 0 0;
+  padding: 1px;
+  height: 96px;
+  border: 3px solid white;
+  width: 178px;
+  background: #fff;
+}
+/* line 56, ../sass/partials/_tiny-carousel.scss */
+.tiny-carousel .overview li:hover {
+  background: #fff;
+  border-color: #006792;
+}
+/* line 61, ../sass/partials/_tiny-carousel.scss */
+.tiny-carousel .overview li h3 {
+  padding: 5px 0 0 8px;
+  line-height: 14px;
+}
+/* line 67, ../sass/partials/_tiny-carousel.scss */
+.tiny-carousel .overview li p {
+  padding: 8px;
+  line-height: 14px;
+}
+/* line 72, ../sass/partials/_tiny-carousel.scss */
+.tiny-carousel .overview li a {
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 14.5px;
+}
+/* line 78, ../sass/partials/_tiny-carousel.scss */
+.tiny-carousel .overview li div {
+  padding-right: 40px;
+  min-height: 98px;
+}
+
+/* line 89, ../sass/partials/_tiny-carousel.scss */
+p.slider-controls {
+  margin: 0;
+}
+
+/* -- Non carousel view on services page --*/
+/* line 97, ../sass/partials/_tiny-carousel.scss */
+.services-page #content .entry-header {
+  padding-top: 0 !important;
+}
+/* line 101, ../sass/partials/_tiny-carousel.scss */
+.services-page #content h2 {
+  display: none;
+}
+/* line 105, ../sass/partials/_tiny-carousel.scss */
+.services-page #content .tiny-carousel {
+  overflow: visible;
+  display: block;
+  height: auto;
+  background: #e4e4e4;
+  padding: 10px 0 0 10px;
+  margin-bottom: 20px;
+}
+/* line 113, ../sass/partials/_tiny-carousel.scss */
+.services-page #content .tiny-carousel p.slider-controls {
+  display: none;
+}
+/* line 117, ../sass/partials/_tiny-carousel.scss */
+.services-page #content .tiny-carousel .viewport {
+  float: none;
+  height: auto;
+  width: auto;
+  overflow: auto;
+}
+/* line 124, ../sass/partials/_tiny-carousel.scss */
+.services-page #content .tiny-carousel .overview {
+  position: static;
+  width: 100%;
+}
+/* line 128, ../sass/partials/_tiny-carousel.scss */
+.services-page #content .tiny-carousel .overview li {
+  width: 282px;
+  margin: 0 10px 10px 0;
+}
+/* line 132, ../sass/partials/_tiny-carousel.scss */
+.services-page #content .tiny-carousel .overview li div {
+  background-position: right;
+}
+/* line 136, ../sass/partials/_tiny-carousel.scss */
+.services-page #content .tiny-carousel .overview li h3 {
+  margin-bottom: 0;
+}
+/* line 140, ../sass/partials/_tiny-carousel.scss */
+.services-page #content .tiny-carousel .overview li p {
+  width: 80%;
+}
+
 /* search */
 /* line 2, ../sass/custom-sc/_search.scss */
 input#searchsubmit {
@@ -2961,6 +3103,7 @@ input#s {
   margin: 0;
   padding: 0;
   list-style: none;
+  min-height: 55px;
 }
 /* line 38, ../sass/custom-sc/_home.scss */
 .intro-panel .fader li {
@@ -2990,7 +3133,7 @@ input#s {
   width: 420px;
   font-size: 16px;
   padding: 10px 290px 5px 10px;
-  background: url(http://placehold.it/250x400) right no-repeat;
+  background: url(http://placehold.it/250x200) right 10px no-repeat;
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 /* line 71, ../sass/custom-sc/_home.scss */
@@ -3106,118 +3249,28 @@ input#s {
   padding-left: 0;
 }
 
-/* Tiny Carousel */
 /* line 168, ../sass/custom-sc/_home.scss */
-#slider1 {
-  height: 100px;
-  overflow: hidden;
-  padding: 0 0 10px;
-}
-/* line 173, ../sass/custom-sc/_home.scss */
-#slider1 .viewport {
-  float: left;
-  width: 599px;
-  height: 125px;
-  overflow: hidden;
-  position: relative;
-}
-/* line 181, ../sass/custom-sc/_home.scss */
-#slider1 .buttons {
-  background: url(../images/arrow-left.png) no-repeat;
-  display: block;
-  margin: 30px 0 0 0;
-  background-position: 0 0;
-  text-indent: -999em;
-  float: left;
-  width: 10px;
-  height: 37px;
-  overflow: hidden;
-  position: relative;
-}
-/* line 194, ../sass/custom-sc/_home.scss */
-#slider1 .next {
-  background-position: 0 0;
-  margin: 30px 0 0 0;
-  background: url(../images/arrow-right.png) no-repeat;
-}
-/* line 200, ../sass/custom-sc/_home.scss */
-#slider1 disable {
-  visibility: hidden;
-}
-/* line 204, ../sass/custom-sc/_home.scss */
-#slider1 .overview {
-  list-style: none;
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  width: 240px;
-  left: 0;
-  top: 0;
-}
-/* line 213, ../sass/custom-sc/_home.scss */
-#slider1 .overview li {
-  float: left;
-  margin: 0 20px 0 0;
-  padding: 1px;
-  height: 96px;
-  border: 3px solid white;
-  width: 178px;
-  background: #fff;
-}
-/* line 222, ../sass/custom-sc/_home.scss */
-#slider1 .overview li:hover {
-  background: #fff;
-  border-color: #006792;
-}
-/* line 227, ../sass/custom-sc/_home.scss */
-#slider1 .overview li h3 {
-  padding: 5px 0 0 8px;
-  line-height: 14px;
-}
-/* line 233, ../sass/custom-sc/_home.scss */
-#slider1 .overview li p {
-  padding: 8px;
-  line-height: 14px;
-}
-/* line 238, ../sass/custom-sc/_home.scss */
-#slider1 .overview li a {
-  font-weight: normal;
-  text-decoration: none;
-  font-size: 14.5px;
-}
-/* line 244, ../sass/custom-sc/_home.scss */
-#slider1 .overview li div {
-  padding-right: 40px;
-  min-height: 98px;
-}
-
-/* line 255, ../sass/custom-sc/_home.scss */
-p.slider-controls {
-  margin: 0;
-}
-
-/* line 259, ../sass/custom-sc/_home.scss */
 #facilitation div {
   background: url(../images/scroller-facilitation-bg.png) right top no-repeat;
 }
 
-/* line 263, ../sass/custom-sc/_home.scss */
+/* line 172, ../sass/custom-sc/_home.scss */
 #prog-manage div {
   background: url(../images/scroller-prog-manage-bg.png) 130px top no-repeat;
 }
 
-/* line 267, ../sass/custom-sc/_home.scss */
+/* line 176, ../sass/custom-sc/_home.scss */
 #change-management div {
   background: url(../images/scroller-change-manage-bg.png) 110px top no-repeat;
 }
 
-/* line 271, ../sass/custom-sc/_home.scss */
+/* line 180, ../sass/custom-sc/_home.scss */
 #embedding-change div {
   background: url(../images/scroller-exe-change.png) right top no-repeat;
 }
 
 /*Twitter Feed*/
-/* line 277, ../sass/custom-sc/_home.scss */
+/* line 186, ../sass/custom-sc/_home.scss */
 .feed-container {
   float: left;
   width: 290px;
@@ -3225,7 +3278,7 @@ p.slider-controls {
   position: relative;
 }
 
-/* line 284, ../sass/custom-sc/_home.scss */
+/* line 193, ../sass/custom-sc/_home.scss */
 #content .twitter-feed {
   background: url(../images/twitter-border-top.png) no-repeat;
   padding: 5px 0 0 0;
@@ -3233,7 +3286,7 @@ p.slider-controls {
   line-height: 16px;
   zoom: 1;
 }
-/* line 291, ../sass/custom-sc/_home.scss */
+/* line 200, ../sass/custom-sc/_home.scss */
 #content .twitter-feed h2 {
   color: #fff;
   padding: 5px 0 0 10px;
@@ -3242,60 +3295,60 @@ p.slider-controls {
   font-size: 16px;
 }
 
-/* line 301, ../sass/custom-sc/_home.scss */
+/* line 210, ../sass/custom-sc/_home.scss */
 #content #tweet {
   padding: 10px 20px;
   min-height: 200px;
 }
-/* line 305, ../sass/custom-sc/_home.scss */
+/* line 214, ../sass/custom-sc/_home.scss */
 #content #tweet h2 {
   display: none;
 }
-/* line 309, ../sass/custom-sc/_home.scss */
+/* line 218, ../sass/custom-sc/_home.scss */
 #content #tweet h3 {
   display: block;
   float: none;
   text-align: left;
   width: auto;
 }
-/* line 316, ../sass/custom-sc/_home.scss */
+/* line 225, ../sass/custom-sc/_home.scss */
 #content #tweet p {
   padding: 0 35px 0 35px;
 }
-/* line 320, ../sass/custom-sc/_home.scss */
+/* line 229, ../sass/custom-sc/_home.scss */
 #content #tweet ul {
   margin: 0;
   list-style: none;
 }
-/* line 325, ../sass/custom-sc/_home.scss */
+/* line 234, ../sass/custom-sc/_home.scss */
 #content #tweet ul li {
   padding: 0 0 15px 0;
 }
-/* line 329, ../sass/custom-sc/_home.scss */
+/* line 238, ../sass/custom-sc/_home.scss */
 #content #tweet .prefix img {
   margin-left: -38px;
   position: absolute;
 }
-/* line 334, ../sass/custom-sc/_home.scss */
+/* line 243, ../sass/custom-sc/_home.scss */
 #content #tweet .intent-meta a {
   padding-right: 0.4em;
 }
 
-/* line 341, ../sass/custom-sc/_home.scss */
+/* line 250, ../sass/custom-sc/_home.scss */
 .twitter-footer {
   background: white url(../images/twitter-border-bottom.png) left bottom no-repeat;
   height: 20px;
 }
-/* line 345, ../sass/custom-sc/_home.scss */
+/* line 254, ../sass/custom-sc/_home.scss */
 .twitter-footer p {
   padding: 0 47px 30px 47px;
 }
 
-/* line 353, ../sass/custom-sc/_home.scss */
+/* line 262, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us {
   list-style: none;
 }
-/* line 357, ../sass/custom-sc/_home.scss */
+/* line 266, ../sass/custom-sc/_home.scss */
 #content .feed-container h3 {
   display: block;
   color: #666;
@@ -3304,18 +3357,18 @@ p.slider-controls {
   float: left;
   padding-top: 5px;
 }
-/* line 366, ../sass/custom-sc/_home.scss */
+/* line 275, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us {
   display: block;
   float: right;
   width: 130px;
   margin: 1px 0 0 0;
 }
-/* line 372, ../sass/custom-sc/_home.scss */
+/* line 281, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us li {
   float: right;
 }
-/* line 381, ../sass/custom-sc/_home.scss */
+/* line 290, ../sass/custom-sc/_home.scss */
 #content .feed-container .twitter,
 #content .feed-container .facebook,
 #content .feed-container .linkedin,
@@ -3326,25 +3379,25 @@ p.slider-controls {
   text-indent: -2000px;
   margin-right: 5px;
 }
-/* line 389, ../sass/custom-sc/_home.scss */
+/* line 298, ../sass/custom-sc/_home.scss */
 #content .feed-container .twitter {
   background: url(../images/icon-twitter.png) no-repeat;
 }
-/* line 393, ../sass/custom-sc/_home.scss */
+/* line 302, ../sass/custom-sc/_home.scss */
 #content .feed-container .facebook {
   background: url(../images/icon-facebook.png) no-repeat;
 }
-/* line 397, ../sass/custom-sc/_home.scss */
+/* line 306, ../sass/custom-sc/_home.scss */
 #content .feed-container .linkedin {
   background: url(../images/icon-linkedin.png) no-repeat;
 }
-/* line 401, ../sass/custom-sc/_home.scss */
+/* line 310, ../sass/custom-sc/_home.scss */
 #content .feed-container .rss {
   background: url(../images/icon-rss.png) no-repeat;
 }
 
 /* Facebook */
-/* line 408, ../sass/custom-sc/_home.scss */
+/* line 317, ../sass/custom-sc/_home.scss */
 #LikeboxPluginPagelet {
   background: blue;
 }

@@ -1,0 +1,147 @@
+/* Tiny Carousel */
+.tiny-carousel { 
+  height: 100px; 
+  overflow:hidden; 
+  padding: 0 0 10px;
+  
+  .viewport {
+    float: left; 
+    width: 599px; 
+    height: 125px; 
+    overflow: hidden; 
+    position: relative;
+  }
+  
+  .buttons {
+    background: url(../images/arrow-left.png) no-repeat; 
+    display: block; 
+    margin: 30px 0 0 0; 
+    background-position: 0 0; 
+    text-indent: -999em; 
+    float: left; 
+    width: 10px; 
+    height: 37px; 
+    overflow: hidden; 
+    position: relative;
+  }
+  
+  .next { 
+    background-position: 0 0; 
+    margin: 30px 0 0 0; 
+    background: url(../images/arrow-right.png) no-repeat;
+  }
+  
+  disable { 
+    visibility: hidden; 
+  }
+  
+  .overview { 
+    list-style: none; 
+    position: absolute; 
+    padding: 0; 
+    margin: 0; 
+    width: 240px; 
+    left: 0; 
+    top: 0;
+    
+    li{
+      float: left; 
+      margin: 0 20px 0 0; 
+      padding: 1px; 
+      height: 96px; 
+      border: 3px solid #fff; 
+      width: 178px; 
+      background: #fff;
+      
+      &:hover{
+        background: #fff;
+        border-color: $blueDark;
+      }
+    
+      h3{
+        padding: 5px 0 0 8px;
+        line-height: 14px
+        
+      }
+      
+      p{
+        padding: 8px;
+        line-height: 14px; 
+      }
+      
+      a{
+        font-weight: normal;
+        text-decoration: none;
+        font-size: $baseFontSize + 1.5;
+      }
+      
+      div{
+        padding-right: 40px;
+        min-height: 98px;
+      }
+      
+    }
+  
+  }
+  
+}
+
+p.slider-controls{
+  margin: 0;
+}
+
+
+/* -- Non carousel view on services page --*/
+.services-page #content{
+
+  .entry-header{
+    padding-top: 0 !important;
+  }
+
+  h2{
+    display: none;
+  }
+
+  .tiny-carousel{
+    overflow: visible;
+    display: block;
+    height: auto;
+    background: #e4e4e4;
+    padding: 10px 0 0 10px;
+    margin-bottom: 20px;
+
+    p.slider-controls{
+      display: none;
+    }
+
+    .viewport{
+      float: none;
+      height: auto;
+      width: auto;
+      overflow: auto;
+    }
+
+    .overview{
+      position: static;
+      width: 100%;
+
+      li{
+        width: 282px;
+        margin: 0 10px 10px 0;
+
+        div{
+          background-position: right;
+        }
+
+        h3{
+          margin-bottom: 0 
+        }
+
+        p{
+          width: 80%;
+        }
+
+      }
+    }
+  }
+}
