@@ -3129,29 +3129,33 @@ input#s {
 /* line 62, ../sass/custom-sc/_home.scss */
 .intro-body {
   float: left;
-  margin-left: 20px;
+  margin: 0 40px 0 20px;
   width: 420px;
   font-size: 16px;
-  padding: 10px 290px 5px 10px;
-  background: url(http://placehold.it/250x200) right 10px no-repeat;
-  font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-/* line 71, ../sass/custom-sc/_home.scss */
+/* line 68, ../sass/custom-sc/_home.scss */
 .intro-body p {
   line-height: 22px;
 }
 
-/* line 77, ../sass/custom-sc/_home.scss */
+/* line 74, ../sass/custom-sc/_home.scss */
+.intro-image {
+  float: left;
+  width: 280px;
+  padding-top: 10px;
+}
+
+/* line 80, ../sass/custom-sc/_home.scss */
 .features-panel {
   background: url(../images/intro-panel-bottom.png) repeat-x;
 }
 
-/* line 82, ../sass/custom-sc/_home.scss */
+/* line 85, ../sass/custom-sc/_home.scss */
 .features-content {
   background: #d3eaf3 url(../images/features-panel.png) repeat-x;
   padding: 0 10px 20px 20px;
 }
-/* line 87, ../sass/custom-sc/_home.scss */
+/* line 90, ../sass/custom-sc/_home.scss */
 .features-content h2 {
   font-size: 20px;
   line-height: 30px;
@@ -3160,34 +3164,34 @@ input#s {
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
-/* line 97, ../sass/custom-sc/_home.scss */
+/* line 100, ../sass/custom-sc/_home.scss */
 #content .home-content {
   float: left;
   width: 640px;
   margin: 10px 10px 20px 10px;
 }
-/* line 102, ../sass/custom-sc/_home.scss */
+/* line 105, ../sass/custom-sc/_home.scss */
 #content .home-content h2 {
   color: #666;
   font-size: 20px;
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-/* line 108, ../sass/custom-sc/_home.scss */
+/* line 111, ../sass/custom-sc/_home.scss */
 #content .home-content h3 {
   font-size: 16px;
   margin: 0 0 5px 0;
   line-height: 1.2em;
 }
-/* line 114, ../sass/custom-sc/_home.scss */
+/* line 117, ../sass/custom-sc/_home.scss */
 #content .home-content h3 a {
   text-decoration: none;
 }
-/* line 117, ../sass/custom-sc/_home.scss */
+/* line 120, ../sass/custom-sc/_home.scss */
 #content .home-content h3 a:hover {
   text-decoration: underline;
 }
 
-/* line 127, ../sass/custom-sc/_home.scss */
+/* line 130, ../sass/custom-sc/_home.scss */
 .home-content .col-1 {
   float: left;
   width: 280px;
@@ -3195,14 +3199,14 @@ input#s {
   margin-right: 20px;
 }
 
-/* line 134, ../sass/custom-sc/_home.scss */
+/* line 137, ../sass/custom-sc/_home.scss */
 .home-content .col-2 {
   float: left;
   width: 280px;
   padding: 10px;
 }
 
-/* line 140, ../sass/custom-sc/_home.scss */
+/* line 143, ../sass/custom-sc/_home.scss */
 .home #content {
   width: 964px;
   margin-left: auto;
@@ -3229,7 +3233,7 @@ input#s {
 .home #content:after {
   clear: both;
 }
-/* line 148, ../sass/custom-sc/_home.scss */
+/* line 151, ../sass/custom-sc/_home.scss */
 .home #content #content .home-content a.read-more {
   display: inline-block;
   background: #006792;
@@ -3238,39 +3242,39 @@ input#s {
   padding: 0 5px;
   border-radius: 3px;
 }
-/* line 156, ../sass/custom-sc/_home.scss */
+/* line 159, ../sass/custom-sc/_home.scss */
 .home #content #content .home-content a.read-more:hover {
   background: #6DCBD8;
 }
-/* line 159, ../sass/custom-sc/_home.scss */
+/* line 162, ../sass/custom-sc/_home.scss */
 .home #content ul {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
 
-/* line 168, ../sass/custom-sc/_home.scss */
+/* line 171, ../sass/custom-sc/_home.scss */
 #facilitation div {
-  background: url(../images/scroller-facilitation-bg.png) right top no-repeat;
+  background: url(/simplychange/wp-content/uploads/scroller-facilitation-bg1.png) right top no-repeat;
 }
 
-/* line 172, ../sass/custom-sc/_home.scss */
+/* line 175, ../sass/custom-sc/_home.scss */
 #prog-manage div {
-  background: url(../images/scroller-prog-manage-bg.png) 130px top no-repeat;
+  background: url(/simplychange/wp-content/uploads/scroller-prog-manage-bg1.png) 130px top no-repeat;
 }
 
-/* line 176, ../sass/custom-sc/_home.scss */
+/* line 179, ../sass/custom-sc/_home.scss */
 #change-management div {
-  background: url(../images/scroller-change-manage-bg.png) 110px top no-repeat;
+  background: url(/simplychange/wp-content/uploads/scroller-change-manage-bg1.png) 110px top no-repeat;
 }
 
-/* line 180, ../sass/custom-sc/_home.scss */
+/* line 183, ../sass/custom-sc/_home.scss */
 #embedding-change div {
-  background: url(../images/scroller-exe-change.png) right top no-repeat;
+  background: url(/simplychange/wp-content/uploads/scroller-exe-change1.png) right top no-repeat;
 }
 
 /*Twitter Feed*/
-/* line 186, ../sass/custom-sc/_home.scss */
+/* line 191, ../sass/custom-sc/_home.scss */
 .feed-container {
   float: left;
   width: 290px;
@@ -3278,7 +3282,7 @@ input#s {
   position: relative;
 }
 
-/* line 193, ../sass/custom-sc/_home.scss */
+/* line 198, ../sass/custom-sc/_home.scss */
 #content .twitter-feed {
   background: url(../images/twitter-border-top.png) no-repeat;
   padding: 5px 0 0 0;
@@ -3286,7 +3290,7 @@ input#s {
   line-height: 16px;
   zoom: 1;
 }
-/* line 200, ../sass/custom-sc/_home.scss */
+/* line 205, ../sass/custom-sc/_home.scss */
 #content .twitter-feed h2 {
   color: #fff;
   padding: 5px 0 0 10px;
@@ -3295,60 +3299,60 @@ input#s {
   font-size: 16px;
 }
 
-/* line 210, ../sass/custom-sc/_home.scss */
+/* line 215, ../sass/custom-sc/_home.scss */
 #content #tweet {
   padding: 10px 20px;
   min-height: 200px;
 }
-/* line 214, ../sass/custom-sc/_home.scss */
+/* line 219, ../sass/custom-sc/_home.scss */
 #content #tweet h2 {
   display: none;
 }
-/* line 218, ../sass/custom-sc/_home.scss */
+/* line 223, ../sass/custom-sc/_home.scss */
 #content #tweet h3 {
   display: block;
   float: none;
   text-align: left;
   width: auto;
 }
-/* line 225, ../sass/custom-sc/_home.scss */
+/* line 230, ../sass/custom-sc/_home.scss */
 #content #tweet p {
   padding: 0 35px 0 35px;
 }
-/* line 229, ../sass/custom-sc/_home.scss */
+/* line 234, ../sass/custom-sc/_home.scss */
 #content #tweet ul {
   margin: 0;
   list-style: none;
 }
-/* line 234, ../sass/custom-sc/_home.scss */
+/* line 239, ../sass/custom-sc/_home.scss */
 #content #tweet ul li {
   padding: 0 0 15px 0;
 }
-/* line 238, ../sass/custom-sc/_home.scss */
+/* line 243, ../sass/custom-sc/_home.scss */
 #content #tweet .prefix img {
   margin-left: -38px;
   position: absolute;
 }
-/* line 243, ../sass/custom-sc/_home.scss */
+/* line 248, ../sass/custom-sc/_home.scss */
 #content #tweet .intent-meta a {
   padding-right: 0.4em;
 }
 
-/* line 250, ../sass/custom-sc/_home.scss */
+/* line 255, ../sass/custom-sc/_home.scss */
 .twitter-footer {
   background: white url(../images/twitter-border-bottom.png) left bottom no-repeat;
   height: 20px;
 }
-/* line 254, ../sass/custom-sc/_home.scss */
+/* line 259, ../sass/custom-sc/_home.scss */
 .twitter-footer p {
   padding: 0 47px 30px 47px;
 }
 
-/* line 262, ../sass/custom-sc/_home.scss */
+/* line 267, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us {
   list-style: none;
 }
-/* line 266, ../sass/custom-sc/_home.scss */
+/* line 271, ../sass/custom-sc/_home.scss */
 #content .feed-container h3 {
   display: block;
   color: #666;
@@ -3357,18 +3361,18 @@ input#s {
   float: left;
   padding-top: 5px;
 }
-/* line 275, ../sass/custom-sc/_home.scss */
+/* line 280, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us {
   display: block;
   float: right;
   width: 130px;
   margin: 1px 0 0 0;
 }
-/* line 281, ../sass/custom-sc/_home.scss */
+/* line 286, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us li {
   float: right;
 }
-/* line 290, ../sass/custom-sc/_home.scss */
+/* line 295, ../sass/custom-sc/_home.scss */
 #content .feed-container .twitter,
 #content .feed-container .facebook,
 #content .feed-container .linkedin,
@@ -3379,25 +3383,25 @@ input#s {
   text-indent: -2000px;
   margin-right: 5px;
 }
-/* line 298, ../sass/custom-sc/_home.scss */
+/* line 303, ../sass/custom-sc/_home.scss */
 #content .feed-container .twitter {
   background: url(../images/icon-twitter.png) no-repeat;
 }
-/* line 302, ../sass/custom-sc/_home.scss */
+/* line 307, ../sass/custom-sc/_home.scss */
 #content .feed-container .facebook {
   background: url(../images/icon-facebook.png) no-repeat;
 }
-/* line 306, ../sass/custom-sc/_home.scss */
+/* line 311, ../sass/custom-sc/_home.scss */
 #content .feed-container .linkedin {
   background: url(../images/icon-linkedin.png) no-repeat;
 }
-/* line 310, ../sass/custom-sc/_home.scss */
+/* line 315, ../sass/custom-sc/_home.scss */
 #content .feed-container .rss {
   background: url(../images/icon-rss.png) no-repeat;
 }
 
 /* Facebook */
-/* line 317, ../sass/custom-sc/_home.scss */
+/* line 322, ../sass/custom-sc/_home.scss */
 #LikeboxPluginPagelet {
   background: blue;
 }

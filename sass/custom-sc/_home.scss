@@ -61,17 +61,20 @@
 
 .intro-body{
   float: left;
-  margin-left: 20px;
+  margin: 0 40px 0 20px;
   width: 420px;
   font-size: 16px;
-  padding: 10px 290px 5px 10px;
-  background:  url(http://placehold.it/250x200) right 10px no-repeat;
-  font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   
   p{
     line-height: 22px;
   }
   
+}
+
+.intro-image{
+  float: left;
+  width: 280px;
+  padding-top: 10px;
 }
 
 .features-panel{
@@ -166,20 +169,22 @@
 
 
 #facilitation div{
-  background: url(../images/scroller-facilitation-bg.png) right top no-repeat;
+  background: url(/simplychange/wp-content/uploads/scroller-facilitation-bg1.png) right top no-repeat;
 }
 
 #prog-manage div{
-  background: url(../images/scroller-prog-manage-bg.png) 130px top no-repeat;
+  background: url(/simplychange/wp-content/uploads/scroller-prog-manage-bg1.png) 130px top no-repeat;
 }
 
 #change-management div{
-  background: url(../images/scroller-change-manage-bg.png) 110px top no-repeat;
+  background: url(/simplychange/wp-content/uploads/scroller-change-manage-bg1.png) 110px top no-repeat;
 }
 
 #embedding-change div{
-  background: url(../images/scroller-exe-change.png) right top no-repeat;
+  background: url(/simplychange/wp-content/uploads/scroller-exe-change1.png) right top no-repeat;
 }
+
+
 
 /*Twitter Feed*/
 
