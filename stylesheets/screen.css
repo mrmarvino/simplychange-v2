@@ -167,7 +167,7 @@ input,
 textarea,
 .page-title span,
 .pingback a.url {
-  font-family: "MuseoSans500", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 69, ../sass/partials/_fonts.scss */
@@ -212,6 +212,15 @@ pre {
 /* line 78, ../sass/partials/_fonts.scss */
 code {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+/* line 87, ../sass/partials/_fonts.scss */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "MuseoSans500", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
 /* =Structure
@@ -764,12 +773,12 @@ div.menu li {
 #content dd,
 #content pre,
 #content hr {
-  margin-bottom: 24px;
+  margin-bottom: 1.2em;
 }
 
 /* line 32, ../sass/partials/_content.scss */
 #content p.read-more {
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 /* line 39, ../sass/partials/_content.scss */
@@ -892,10 +901,10 @@ div.menu li {
 /* line 121, ../sass/partials/_content.scss */
 #content .entry-title {
   color: #666;
-  font-size: 30px;
+  font-size: 1.8em;
   font-weight: normal;
   line-height: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.2em;
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
@@ -1768,37 +1777,38 @@ a.comment-reply-link > span {
   font-weight: normal;
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
 }
 
-/* line 32, ../sass/partials/_widgets.scss */
+/* line 33, ../sass/partials/_widgets.scss */
 .widget-area a:link,
 .widget-area a:visited {
   text-decoration: none;
 }
 
-/* line 36, ../sass/partials/_widgets.scss */
+/* line 37, ../sass/partials/_widgets.scss */
 .widget-area a:active,
 .widget-area a:hover {
   text-decoration: underline;
 }
 
-/* line 39, ../sass/partials/_widgets.scss */
+/* line 40, ../sass/partials/_widgets.scss */
 .widget-area .entry-meta {
   font-size: 11px;
 }
 
-/* line 42, ../sass/partials/_widgets.scss */
+/* line 43, ../sass/partials/_widgets.scss */
 #wp_tag_cloud div {
   line-height: 1.6em;
 }
 
-/* line 45, ../sass/partials/_widgets.scss */
+/* line 46, ../sass/partials/_widgets.scss */
 #wp-calendar {
   width: 100%;
 }
 
-/* line 48, ../sass/partials/_widgets.scss */
+/* line 49, ../sass/partials/_widgets.scss */
 #wp-calendar caption {
   color: #222;
   font-size: 14px;
@@ -1807,17 +1817,17 @@ a.comment-reply-link > span {
   text-align: left;
 }
 
-/* line 55, ../sass/partials/_widgets.scss */
+/* line 56, ../sass/partials/_widgets.scss */
 #wp-calendar thead {
   font-size: 11px;
 }
 
-/* line 60, ../sass/partials/_widgets.scss */
+/* line 61, ../sass/partials/_widgets.scss */
 #wp-calendar tbody {
   color: #aaa;
 }
 
-/* line 63, ../sass/partials/_widgets.scss */
+/* line 64, ../sass/partials/_widgets.scss */
 #wp-calendar tbody td {
   background: #f5f5f5;
   border: 1px solid white;
@@ -1825,53 +1835,53 @@ a.comment-reply-link > span {
   text-align: center;
 }
 
-/* line 69, ../sass/partials/_widgets.scss */
+/* line 70, ../sass/partials/_widgets.scss */
 #wp-calendar tbody .pad {
   background: none;
 }
 
-/* line 72, ../sass/partials/_widgets.scss */
+/* line 73, ../sass/partials/_widgets.scss */
 #wp-calendar tfoot #next {
   text-align: right;
 }
 
-/* line 75, ../sass/partials/_widgets.scss */
+/* line 76, ../sass/partials/_widgets.scss */
 .widget_rss a.rsswidget {
   color: #000;
 }
 
-/* line 78, ../sass/partials/_widgets.scss */
+/* line 79, ../sass/partials/_widgets.scss */
 .widget_rss a.rsswidget:hover {
   color: #ff4b33;
 }
 
-/* line 81, ../sass/partials/_widgets.scss */
+/* line 82, ../sass/partials/_widgets.scss */
 .widget_rss .widget-title img {
   width: 11px;
   height: 11px;
 }
 
 /* Main sidebars */
-/* line 87, ../sass/partials/_widgets.scss */
+/* line 88, ../sass/partials/_widgets.scss */
 #main .widget-area ul {
   margin-left: 0;
   padding: 0 20px 0 0;
 }
 
-/* line 91, ../sass/partials/_widgets.scss */
+/* line 92, ../sass/partials/_widgets.scss */
 #main .widget-area ul ul {
   border: none;
   margin-left: 1.3em;
   padding: 0;
 }
 
-/* line 96, ../sass/partials/_widgets.scss */
+/* line 97, ../sass/partials/_widgets.scss */
 #primary {
   margin: 10px;
   width: 610px;
 }
 
-/* line 100, ../sass/partials/_widgets.scss */
+/* line 101, ../sass/partials/_widgets.scss */
 #secondary {
   margin-top: 20px;
   background: #d3eaf3 url(../images/features-panel.png) repeat-x;
@@ -3103,59 +3113,60 @@ input#s {
   margin: 0;
   padding: 0;
   list-style: none;
-  min-height: 55px;
+  min-height: 65px;
 }
 /* line 38, ../sass/custom-sc/_home.scss */
 .intro-panel .fader li {
   padding-bottom: 1em;
   display: none;
   font-size: 16px;
-  font-weight: bold;
   color: #049cdb;
   line-height: 1.4em;
 }
 
-/* line 51, ../sass/custom-sc/_home.scss */
+/* line 50, ../sass/custom-sc/_home.scss */
 .intro-headers {
   width: 190px;
   float: left;
   padding: 5px 0 0 10px;
 }
-/* line 56, ../sass/custom-sc/_home.scss */
+/* line 55, ../sass/custom-sc/_home.scss */
 .intro-headers p {
   padding: 5px 0 0 7px;
 }
 
-/* line 62, ../sass/custom-sc/_home.scss */
+/* line 61, ../sass/custom-sc/_home.scss */
 .intro-body {
   float: left;
   margin: 0 40px 0 20px;
   width: 420px;
   font-size: 16px;
+  font-family: "MuseoSans500", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 /* line 68, ../sass/custom-sc/_home.scss */
 .intro-body p {
   line-height: 22px;
+  padding-top: 10px;
 }
 
-/* line 74, ../sass/custom-sc/_home.scss */
+/* line 75, ../sass/custom-sc/_home.scss */
 .intro-image {
   float: left;
   width: 280px;
   padding-top: 10px;
 }
 
-/* line 80, ../sass/custom-sc/_home.scss */
+/* line 81, ../sass/custom-sc/_home.scss */
 .features-panel {
   background: url(../images/intro-panel-bottom.png) repeat-x;
 }
 
-/* line 85, ../sass/custom-sc/_home.scss */
+/* line 86, ../sass/custom-sc/_home.scss */
 .features-content {
   background: #d3eaf3 url(../images/features-panel.png) repeat-x;
   padding: 0 10px 20px 20px;
 }
-/* line 90, ../sass/custom-sc/_home.scss */
+/* line 91, ../sass/custom-sc/_home.scss */
 .features-content h2 {
   font-size: 20px;
   line-height: 30px;
@@ -3164,34 +3175,34 @@ input#s {
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
-/* line 100, ../sass/custom-sc/_home.scss */
+/* line 101, ../sass/custom-sc/_home.scss */
 #content .home-content {
   float: left;
   width: 640px;
   margin: 10px 10px 20px 10px;
 }
-/* line 105, ../sass/custom-sc/_home.scss */
+/* line 106, ../sass/custom-sc/_home.scss */
 #content .home-content h2 {
   color: #666;
   font-size: 20px;
   font-family: "Museo300", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-/* line 111, ../sass/custom-sc/_home.scss */
+/* line 112, ../sass/custom-sc/_home.scss */
 #content .home-content h3 {
   font-size: 16px;
   margin: 0 0 5px 0;
   line-height: 1.2em;
 }
-/* line 117, ../sass/custom-sc/_home.scss */
+/* line 118, ../sass/custom-sc/_home.scss */
 #content .home-content h3 a {
   text-decoration: none;
 }
-/* line 120, ../sass/custom-sc/_home.scss */
+/* line 121, ../sass/custom-sc/_home.scss */
 #content .home-content h3 a:hover {
   text-decoration: underline;
 }
 
-/* line 130, ../sass/custom-sc/_home.scss */
+/* line 131, ../sass/custom-sc/_home.scss */
 .home-content .col-1 {
   float: left;
   width: 280px;
@@ -3199,14 +3210,14 @@ input#s {
   margin-right: 20px;
 }
 
-/* line 137, ../sass/custom-sc/_home.scss */
+/* line 138, ../sass/custom-sc/_home.scss */
 .home-content .col-2 {
   float: left;
   width: 280px;
   padding: 10px;
 }
 
-/* line 143, ../sass/custom-sc/_home.scss */
+/* line 144, ../sass/custom-sc/_home.scss */
 .home #content {
   width: 964px;
   margin-left: auto;
@@ -3233,7 +3244,7 @@ input#s {
 .home #content:after {
   clear: both;
 }
-/* line 151, ../sass/custom-sc/_home.scss */
+/* line 152, ../sass/custom-sc/_home.scss */
 .home #content #content .home-content a.read-more {
   display: inline-block;
   background: #006792;
@@ -3242,39 +3253,39 @@ input#s {
   padding: 0 5px;
   border-radius: 3px;
 }
-/* line 159, ../sass/custom-sc/_home.scss */
+/* line 160, ../sass/custom-sc/_home.scss */
 .home #content #content .home-content a.read-more:hover {
   background: #6DCBD8;
 }
-/* line 162, ../sass/custom-sc/_home.scss */
+/* line 163, ../sass/custom-sc/_home.scss */
 .home #content ul {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
 
-/* line 171, ../sass/custom-sc/_home.scss */
+/* line 172, ../sass/custom-sc/_home.scss */
 #facilitation div {
   background: url(/simplychange/wp-content/uploads/scroller-facilitation-bg1.png) right top no-repeat;
 }
 
-/* line 175, ../sass/custom-sc/_home.scss */
+/* line 176, ../sass/custom-sc/_home.scss */
 #prog-manage div {
   background: url(/simplychange/wp-content/uploads/scroller-prog-manage-bg1.png) 130px top no-repeat;
 }
 
-/* line 179, ../sass/custom-sc/_home.scss */
+/* line 180, ../sass/custom-sc/_home.scss */
 #change-management div {
   background: url(/simplychange/wp-content/uploads/scroller-change-manage-bg1.png) 110px top no-repeat;
 }
 
-/* line 183, ../sass/custom-sc/_home.scss */
+/* line 184, ../sass/custom-sc/_home.scss */
 #embedding-change div {
   background: url(/simplychange/wp-content/uploads/scroller-exe-change1.png) right top no-repeat;
 }
 
 /*Twitter Feed*/
-/* line 191, ../sass/custom-sc/_home.scss */
+/* line 192, ../sass/custom-sc/_home.scss */
 .feed-container {
   float: left;
   width: 290px;
@@ -3282,7 +3293,7 @@ input#s {
   position: relative;
 }
 
-/* line 198, ../sass/custom-sc/_home.scss */
+/* line 199, ../sass/custom-sc/_home.scss */
 #content .twitter-feed {
   background: url(../images/twitter-border-top.png) no-repeat;
   padding: 5px 0 0 0;
@@ -3290,7 +3301,7 @@ input#s {
   line-height: 16px;
   zoom: 1;
 }
-/* line 205, ../sass/custom-sc/_home.scss */
+/* line 206, ../sass/custom-sc/_home.scss */
 #content .twitter-feed h2 {
   color: #fff;
   padding: 5px 0 0 10px;
@@ -3299,60 +3310,60 @@ input#s {
   font-size: 16px;
 }
 
-/* line 215, ../sass/custom-sc/_home.scss */
+/* line 216, ../sass/custom-sc/_home.scss */
 #content #tweet {
   padding: 10px 20px;
   min-height: 200px;
 }
-/* line 219, ../sass/custom-sc/_home.scss */
+/* line 220, ../sass/custom-sc/_home.scss */
 #content #tweet h2 {
   display: none;
 }
-/* line 223, ../sass/custom-sc/_home.scss */
+/* line 224, ../sass/custom-sc/_home.scss */
 #content #tweet h3 {
   display: block;
   float: none;
   text-align: left;
   width: auto;
 }
-/* line 230, ../sass/custom-sc/_home.scss */
+/* line 231, ../sass/custom-sc/_home.scss */
 #content #tweet p {
   padding: 0 35px 0 35px;
 }
-/* line 234, ../sass/custom-sc/_home.scss */
+/* line 235, ../sass/custom-sc/_home.scss */
 #content #tweet ul {
   margin: 0;
   list-style: none;
 }
-/* line 239, ../sass/custom-sc/_home.scss */
+/* line 240, ../sass/custom-sc/_home.scss */
 #content #tweet ul li {
   padding: 0 0 15px 0;
 }
-/* line 243, ../sass/custom-sc/_home.scss */
+/* line 244, ../sass/custom-sc/_home.scss */
 #content #tweet .prefix img {
   margin-left: -38px;
   position: absolute;
 }
-/* line 248, ../sass/custom-sc/_home.scss */
+/* line 249, ../sass/custom-sc/_home.scss */
 #content #tweet .intent-meta a {
   padding-right: 0.4em;
 }
 
-/* line 255, ../sass/custom-sc/_home.scss */
+/* line 256, ../sass/custom-sc/_home.scss */
 .twitter-footer {
   background: white url(../images/twitter-border-bottom.png) left bottom no-repeat;
   height: 20px;
 }
-/* line 259, ../sass/custom-sc/_home.scss */
+/* line 260, ../sass/custom-sc/_home.scss */
 .twitter-footer p {
   padding: 0 47px 30px 47px;
 }
 
-/* line 267, ../sass/custom-sc/_home.scss */
+/* line 268, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us {
   list-style: none;
 }
-/* line 271, ../sass/custom-sc/_home.scss */
+/* line 272, ../sass/custom-sc/_home.scss */
 #content .feed-container h3 {
   display: block;
   color: #666;
@@ -3361,18 +3372,18 @@ input#s {
   float: left;
   padding-top: 5px;
 }
-/* line 280, ../sass/custom-sc/_home.scss */
+/* line 281, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us {
   display: block;
   float: right;
   width: 130px;
   margin: 1px 0 0 0;
 }
-/* line 286, ../sass/custom-sc/_home.scss */
+/* line 287, ../sass/custom-sc/_home.scss */
 #content .feed-container .follow-us li {
   float: right;
 }
-/* line 295, ../sass/custom-sc/_home.scss */
+/* line 296, ../sass/custom-sc/_home.scss */
 #content .feed-container .twitter,
 #content .feed-container .facebook,
 #content .feed-container .linkedin,
@@ -3383,30 +3394,35 @@ input#s {
   text-indent: -2000px;
   margin-right: 5px;
 }
-/* line 303, ../sass/custom-sc/_home.scss */
+/* line 304, ../sass/custom-sc/_home.scss */
 #content .feed-container .twitter {
   background: url(../images/icon-twitter.png) no-repeat;
 }
-/* line 307, ../sass/custom-sc/_home.scss */
+/* line 308, ../sass/custom-sc/_home.scss */
 #content .feed-container .facebook {
   background: url(../images/icon-facebook.png) no-repeat;
 }
-/* line 311, ../sass/custom-sc/_home.scss */
+/* line 312, ../sass/custom-sc/_home.scss */
 #content .feed-container .linkedin {
   background: url(../images/icon-linkedin.png) no-repeat;
 }
-/* line 315, ../sass/custom-sc/_home.scss */
+/* line 316, ../sass/custom-sc/_home.scss */
 #content .feed-container .rss {
   background: url(../images/icon-rss.png) no-repeat;
 }
 
 /* Facebook */
-/* line 322, ../sass/custom-sc/_home.scss */
+/* line 323, ../sass/custom-sc/_home.scss */
 #LikeboxPluginPagelet {
   background: blue;
 }
 
-/* line 2, ../sass/custom-sc/_structure.scss */
+/* line 1, ../sass/custom-sc/_structure.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 5, ../sass/custom-sc/_structure.scss */
 .hentry, .no-results {
   border-bottom: 1px solid #dddddd;
   margin: 0 0 1.625em;
@@ -3414,7 +3430,7 @@ input#s {
   position: relative;
 }
 
-/* line 9, ../sass/custom-sc/_structure.scss */
+/* line 12, ../sass/custom-sc/_structure.scss */
 .entry-header .comments-link a {
   background: url("../images/comment-bubble.png") no-repeat scroll 0 0 #eeeeee;
   color: #666666;
@@ -3431,33 +3447,38 @@ input#s {
   top: -0.4em;
   width: 43px;
 }
-/* line 27, ../sass/custom-sc/_structure.scss */
+/* line 30, ../sass/custom-sc/_structure.scss */
 .entry-header .comments-link a:hover, .entry-header .comments-link a:focus, .entry-header .comments-link a:active {
   background-color: #1982d1;
   color: #fff;
   color: rgba(255, 255, 255, 0.8);
 }
 
-/* line 37, ../sass/custom-sc/_structure.scss */
+/* line 40, ../sass/custom-sc/_structure.scss */
 .singular #content {
   position: relative;
 }
-/* line 41, ../sass/custom-sc/_structure.scss */
-.singular #content .entry-header {
+/* line 45, ../sass/custom-sc/_structure.scss */
+.singular #content .post .entry-header {
   padding-top: 2.5em;
 }
-/* line 45, ../sass/custom-sc/_structure.scss */
+/* line 51, ../sass/custom-sc/_structure.scss */
 .singular #content .entry-header .entry-meta {
   left: 0;
   position: absolute;
   top: 0;
 }
-/* line 51, ../sass/custom-sc/_structure.scss */
+/* line 57, ../sass/custom-sc/_structure.scss */
 .singular #content #nav-single {
   float: right;
   position: relative;
   text-align: right;
   top: 0;
   z-index: 1;
-  width: 11em;
+  width: 2em;
+  font-size: 2em;
+}
+/* line 67, ../sass/custom-sc/_structure.scss */
+.singular #content #nav-single a span {
+  display: none;
 }

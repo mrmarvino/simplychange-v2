@@ -1,3 +1,6 @@
+body{
+  -webkit-font-smoothing: antialiased;
+}
 
 .hentry, .no-results {
     border-bottom: 1px solid #DDDDDD;
@@ -38,9 +41,12 @@
   
   position: relative;
   
-  .entry-header{
-    padding-top: 2.5em;
+  .post{
+      .entry-header{
+        padding-top: 2.5em;
+      }
   }
+
   
   .entry-header .entry-meta {
     left: 0;
@@ -54,7 +60,15 @@
     text-align: right;
     top: 0;
     z-index: 1;
-    width: 11em;
+    width: 2em;
+    font-size: 2em;
+    
+    a{
+      span{
+        display: none;
+      }
+    }
+
   }
     
 

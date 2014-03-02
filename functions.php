@@ -32,7 +32,7 @@ register_sidebar( array(
 	) );
 
 register_sidebar( array(
-		'name' => __( 'Sidebar Events', 'twentyeleven' ),
+		'name' => __( 'Sidebar Event', 'twentyeleven' ),
 		'id' => 'sidebar-events',
 		'description' => __( 'Sidebar Events', 'Business' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -45,6 +45,26 @@ register_sidebar( array(
 		'name' => __( 'Main Sidebar 3', 'twentyeleven' ),
 		'id' => 'sidebar-v3',
 		'description' => __( 'Sidebar 3', 'Business' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget' => "</aside>",
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+
+register_sidebar( array(
+		'name' => __( 'Main Sidebar 4', 'twentyeleven' ),
+		'id' => 'sidebar-v4',
+		'description' => __( 'Sidebar 4', 'Business' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget' => "</aside>",
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+
+register_sidebar( array(
+		'name' => __( 'Main Sidebar 5', 'twentyeleven' ),
+		'id' => 'sidebar-v5',
+		'description' => __( 'Sidebar 5', 'Business' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
 		'before_title' => '<h3 class="widget-title">',

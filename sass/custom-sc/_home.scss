@@ -33,13 +33,12 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    min-height: 55px;
+    min-height: 65px;
 
     li{
       padding-bottom: 1em;
       display: none;
       font-size: 16px;
-      font-weight: bold;
       color: $blue;
       line-height: 1.4em;
 
@@ -64,9 +63,11 @@
   margin: 0 40px 0 20px;
   width: 420px;
   font-size: 16px;
+  font-family: "MuseoSans500", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   
   p{
     line-height: 22px;
+    padding-top: 10px;
   }
   
 }

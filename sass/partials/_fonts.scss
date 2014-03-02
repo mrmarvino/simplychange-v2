@@ -40,7 +40,7 @@ input,
 textarea,
 .page-title span,
 .pingback a.url {
-  font-family: "MuseoSans500", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h3#comments-title,
 h3#reply-title,
@@ -77,4 +77,13 @@ pre {
 }
 code {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: "MuseoSans500", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }

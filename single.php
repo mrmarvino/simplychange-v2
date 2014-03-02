@@ -11,12 +11,12 @@ get_header(); ?>
 
 		<div id="primary">
 			<div id="content" role="main">
-				<h1>TEST SINGLE</h1>
+
 				<?php while ( have_posts() ) : the_post(); ?>
 					<nav id="nav-single">
 						<h3 class="assistive-text"><?php _e( 'Post navigation', 'twentyeleven' ); ?></h3>
-						<span class="nav-previous"><?php previous_post_link( '%link', __( '<i class="icon-arrow-left"></i>Previous', 'twentyeleven' ) ); ?></span>
-						<span class="nav-next"><?php next_post_link( '%link', __( 'Next <i class="icon-arrow-right"></i>', 'twentyeleven' ) ); ?></span>
+						<span class="nav-previous"><?php previous_post_link( '%link', __( '<i class="icon-arrow-left"></i><span>Previous</span>', 'twentyeleven' ) ); ?></span>
+						<span class="nav-next"><?php next_post_link( '%link', __( '<span>Next</span> <i class="icon-arrow-right"></i>', 'twentyeleven' ) ); ?></span>
 					</nav><!-- #nav-single -->
 
 					<?php get_template_part( 'content', 'single' ); ?>

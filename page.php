@@ -16,7 +16,6 @@ get_header(); ?>
 
 		<div id="primary">
 			<div id="content" role="main">
-				<h1>DEFAULT</h2>
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -29,4 +28,10 @@ get_header(); ?>
 			</div><!-- #content -->
 		</div><!-- #primary -->
 
-<?php get_footer(); ?>
+
+<?php 
+
+get_sidebar();
+get_footer(); 
+
+?>
